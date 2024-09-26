@@ -37,7 +37,7 @@ function Event(props) {
         <div>
           {/* new animation to be added */}
         </div>
-        <div className="flex-grow flex flex-col items-center justify-between text-white h-[80vh] relative">
+        <div className="flex-grow flex flex-col items-center justify-evenly text-white h-[80vh] relative">
           {/* Image container with reduced size and negative Y translation */}
           <div className="mt-4 md:-translate-y-[60px]">
             <img
@@ -76,7 +76,7 @@ function Event(props) {
 
           {/* Sliding paragraph with transition */}
           <div
-            className={`absolute bottom-[50px] md:bottom-[35px] transition-all duration-500 ease-out bg-gray-800 rounded-lg text-center p-4 z-10 ${
+            className={`absolute bottom-[95px] md:bottom-[35px] transition-all duration-500 ease-out bg-gray-800 rounded-lg text-center p-4 z-10 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full'
             }`}
             style={{ width: 'calc(100% - 40px)', maxWidth: '400px' }}
@@ -85,7 +85,7 @@ function Event(props) {
           </div>
 
           {/* Details Button adjusted to be visible within the viewport */}
-          <div className="w-full flex justify-center mt-4 mb-2 z-20">
+          <div className="w-full flex justify-center mt-2 mb-2 z-20">
             <button
               onClick={handleToggle}
               className="p-2 pl-20 pr-20 rounded-[10px] text-[15px]"
