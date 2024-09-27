@@ -562,6 +562,8 @@ import Navbar from './Navbar';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+import {motion} from 'framer-motion';
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -583,7 +585,7 @@ function Homepage() {
   };
 
   useGSAP(() => {
-    gsap.defaults({ ease: "expo.out", duration: 2 });
+    gsap.defaults({ ease: "expo.out", duration: 3 });
 
     const tl = gsap.timeline();
     tl.from("#orange", {
@@ -608,7 +610,9 @@ function Homepage() {
   }, []);
 
   return (
-    <>
+    <motion.div initial={{opacity:0}}
+    animate={{opacity:1}}
+    exit={{opacity:0}}> 
       {/* Background section */}
       <div style={backgroundStyle} className="bg-dark-primary"> 
         <Navbar />
@@ -725,7 +729,7 @@ function Homepage() {
           Onkar
         </div>
       </div>
-    </>
+    </motion.div>
   );
 }
 

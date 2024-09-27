@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   
   const bgSlider = {
-    backgroundImage: `url('./bg-owasp.svg')`, // Update the path
+    backgroundImage: `url('/bg-owasp.svg')`, // Update the path
     backgroundSize: 'cover',
   };
 
@@ -19,11 +19,11 @@ function Navbar() {
       {/* Navbar */}
       <div className='h-[100px] w-full flex justify-between bg-transparent'>
         <div className='w-[120px] md:w-[180px] -translate-y-4 md:-translate-y-9'>
-          <img src="./owasp_white(2).png" alt="error" />
+          <img src="/owasp_white(2).png" alt="error" />
         </div>
         <div className='px-4 h-14 w-14 pt-4 text-white'>
           <img 
-            src="./icons8-menu-bar-24.png" 
+            src="/icons8-menu-bar-24.png" 
             alt="error" 
             className='filter-invert cursor-pointer' 
             onClick={toggleSidebar}
@@ -47,7 +47,7 @@ function Navbar() {
           <div className='flex justify-between'>
             <h1 className='py-0 text-2xl 'style={{ fontFamily: 'NeueMachina' }}>Menu</h1>
           <button onClick={toggleSidebar} className="h-6 w-6 opacity-80 py-1">
-              <img src="./icons8-close.svg" alt="" />
+              <img src="/icons8-close.svg" alt="" />
           </button>
           </div>
           <hr className='opacity-45'/>
