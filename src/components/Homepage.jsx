@@ -583,7 +583,7 @@ function Homepage() {
   };
 
   useGSAP(() => {
-    gsap.defaults({ ease: "none", duration: 2 });
+    gsap.defaults({ ease: "expo.out", duration: 2 });
 
     const tl = gsap.timeline();
     tl.from("#orange", {
