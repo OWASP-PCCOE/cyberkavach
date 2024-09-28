@@ -263,13 +263,15 @@ function Event({ content, imageSrc, eventId, totalEvents }) {
         initial={{opacity:0}}
         animate={{opacity:1}}
         exit={{opacity:0}}
+        transition={{ duration: 2 }}
+        
         >
         <Navbar />
         <div className="flex-grow flex flex-col items-center justify-evenly text-white h-[80vh] relative -translate-y-[40px] md:-translate-y-[5px]">
           {/* Image container with reduced size and negative Y translation */}
-          <div className="mt-4 md:-translate-y-[60px]">
+          <div className="mt-4 md:-translate-y-[60px] rounded-xl neon-orange">
             <img
-              className="h-[408px] w-[324px] md:h-[400px] md:w-[370px] rounded-xl"
+              className="h-[408px] w-[324px] md:h-[460px] md:w-[370px] rounded-xl"
               src={imageSrc} // Dynamically use the image source
               alt={`Event ${eventId}`}
             />
@@ -296,7 +298,7 @@ function Event({ content, imageSrc, eventId, totalEvents }) {
           </div>
 
           {/* Register Button */}
-          <div className="mt-4">
+          <div className="mt-4 rounded-xl">
             <button
               style={{ fontFamily: 'Gilroy', ...registerButtonStyle }}
               className="p-3 rounded-xl pl-20 pr-20 text-white font-semibold md:text-[25px]"

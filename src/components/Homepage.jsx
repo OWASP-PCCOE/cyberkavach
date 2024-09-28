@@ -612,12 +612,13 @@ function Homepage() {
   return (
     <motion.div initial={{opacity:0}}
     animate={{opacity:1}}
-    exit={{opacity:0}}> 
+    exit={{opacity:0}}
+    transition={{ duration: 2 }}> 
       {/* Background section */}
       <div style={backgroundStyle} className="bg-dark-primary"> 
         <Navbar />
       </div>
-
+               
       <div
         id="container"
         className="relative overflow-hidden h-screen w-screen"
@@ -625,17 +626,27 @@ function Homepage() {
       >
         {/* Responsive image settings for Safari */}
         <img
-          className="absolute bottom-0 left-[50%] transform translate-x-[-50%] z-50"
+          className=" md:hidden block absolute bottom-0 left-[50%] h-[350px] object-contain transform translate-x-[-50%] z-50 md:ml-[400px] md:h-[400px] md:w-[400px]"
           src="./pixelcut-export.png"
           alt="error"
           style={{
-            width: '100%',   // Default width to make it responsive
-            maxWidth: '370px',  // Restrict maximum width
-            height: '350px',   // Maintain aspect ratio
-            objectFit: 'contain',
+            // width: '100%',   // Default width to make it responsive
+            // maxWidth: '370px',  // Restrict maximum width
+            // height: '350px',   // Maintain aspect ratio
+            // objectFit: 'contain',
           }}
         />
-
+          <img
+          className="absolute bottom-0 left-[50%] h-[650px] object-contain transform hidden md:block z-50"
+          src="./pixelcut-export.png"
+          alt="error"
+          style={{
+            // width: '100%',   // Default width to make it responsive
+            // maxWidth: '370px',  // Restrict maximum width
+            // height: '350px',   // Maintain aspect ratio
+            // objectFit: 'contain',
+          }}
+        />
         {/* Safari-specific height */}
         <style>
           {`
@@ -667,8 +678,8 @@ function Homepage() {
             CHECKPOINT
           </h1>
           <div
-            className="mt-[50px] p-8 rounded-2xl ml-4 mr-4 md:w-[500px] md:ml-[108px] border-2 border-rose-500"
-            style={{ backgroundColor: "#24CFA6" }}
+            className="mt-[50px] p-8 rounded-2xl ml-4 mr-4 md:w-[500px] md:ml-[108px] neon-rose"
+            // style={{ backgroundColor: "#24CFA6" }}
           >
             <p
               className="text-[25px]"
@@ -703,8 +714,8 @@ function Homepage() {
             ADRISHYAM
           </h1>
           <div
-            className="mt-[83px] md:mt-[209px] p-5 rounded-2xl ml-4 mr-4"
-            style={{ backgroundColor: "#24CFA6" }}
+            className="mt-[83px] md:mt-[209px] p-5 rounded-2xl ml-4 mr-4 neon-lime"
+            // style={{ backgroundColor: "#24CFA6" }}
           >
             <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
               "Think you can escape the ordinary? Step into Adrishyam, where

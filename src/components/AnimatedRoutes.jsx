@@ -46,9 +46,10 @@ function AnimatedRoutes() {
         }
       
         return <Event content={currentEvent.content} imageSrc={currentEvent.imageSrc} eventId={parseInt(eventId)} totalEvents={eventData.length} />;
+        
       }
   return (
-     <AnimatePresence>
+     <AnimatePresence mode="wait">
      <Routes location={location} key={location.pathname}>
          <Route path="/" element={<HomePage />} />
           <Route path="/events/:eventId" element={<DynamicEvent />} />
