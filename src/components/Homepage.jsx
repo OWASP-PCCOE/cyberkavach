@@ -631,7 +631,7 @@ function Homepage() {
           style={{
             width: '100%',   // Default width to make it responsive
             maxWidth: '370px',  // Restrict maximum width
-            height: 'auto',   // Maintain aspect ratio
+            height: '350px',   // Maintain aspect ratio
             objectFit: 'contain',
           }}
         />
@@ -667,7 +667,7 @@ function Homepage() {
             CHECKPOINT
           </h1>
           <div
-            className="mt-[110px] p-8 rounded-2xl ml-4 mr-4 md:w-[500px] md:ml-[108px] border-2 border-rose-500"
+            className="mt-[50px] p-8 rounded-2xl ml-4 mr-4 md:w-[500px] md:ml-[108px] border-2 border-rose-500"
             style={{ backgroundColor: "#24CFA6" }}
           >
             <p
@@ -703,7 +703,7 @@ function Homepage() {
             ADRISHYAM
           </h1>
           <div
-            className="mt-[143px] md:mt-[209px] p-5 rounded-2xl ml-4 mr-4"
+            className="mt-[83px] md:mt-[209px] p-5 rounded-2xl ml-4 mr-4"
             style={{ backgroundColor: "#24CFA6" }}
           >
             <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>

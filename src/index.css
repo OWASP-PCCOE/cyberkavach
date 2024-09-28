@@ -15,4 +15,19 @@
     font-weight: normal;
     font-style: normal;
   }
-
+  html, body {
+    background-color: black;
+    color: white; /* Optional: Set text color to white for visibility */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  #root {
+    height: 100%;
+    background-color: black;
+  }
