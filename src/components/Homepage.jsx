@@ -585,7 +585,7 @@ function Homepage() {
   };
 
   useGSAP(() => {
-    gsap.defaults({ ease: "expo.out", duration: 3 });
+    gsap.defaults({ ease: "sine.inOut", duration: 3 });
 
     const tl = gsap.timeline();
     tl.from("#orange", {
@@ -690,7 +690,7 @@ function Homepage() {
             </p>
           </div>
           <div className="flex mt-[40px] md:block md:pl-[108px] justify-evenly">
-            <h1
+            <h1 
               style={{ fontFamily: "NeueMachina" }}
             >
               09-10-2024
