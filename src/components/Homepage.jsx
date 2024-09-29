@@ -557,13 +557,201 @@
 
 // export default Homepage;
 
+// import React from 'react';
+// import Navbar from './Navbar';
+// import { useGSAP } from '@gsap/react';
+// import gsap from 'gsap';
+// import { ScrollTrigger } from 'gsap/all';
+// import {motion} from 'framer-motion';
+
+
+// gsap.registerPlugin(ScrollTrigger);
+
+// function Homepage() {
+//   const backgroundStyle = {
+//     backgroundImage: `url('./bg-owasp.svg')`,
+//     backgroundSize: 'cover',
+//     backgroundRepeat: 'no-repeat',
+//     minHeight: '100vh', // Ensure it covers the whole screen
+//     height: '100%',
+//     backgroundColor: '#0C0C0C', // Fallback background color to avoid white space
+//   };
+
+//   const registerButtonStyle = {
+//     backgroundImage: `url(./button-img.webp)`,
+//     backgroundSize: 'cover',
+//     backgroundPosition: 'center',
+//     backgroundRepeat: 'no-repeat',
+//   };
+
+//   useGSAP(() => {
+//     gsap.defaults({ ease: "sine.inOut", duration: 3 });
+
+//     const tl = gsap.timeline();
+//     tl.from("#orange", {
+//       xPercent: -100,
+//     })
+//       .from("#purple", {
+//         xPercent: 100,
+//       })
+//       .from("#green", {
+//         yPercent: -100,
+//       });
+
+//     ScrollTrigger.create({
+//       animation: tl,
+//       trigger: "#container",
+//       start: "top top",
+//       end: "+=3000",
+//       scrub: true,
+//       pin: true,
+//       anticipatePin: 1,
+//     });
+//   }, []);
+
+//   return (
+//     <motion.div initial={{opacity:0}}
+//     animate={{opacity:1}}
+//     exit={{opacity:0}}
+//     transition={{ duration: 2 }}> 
+//       {/* Background section */}
+//       <div style={backgroundStyle} className="bg-dark-primary"> 
+//         <Navbar />
+//       </div>
+               
+//       <div
+//         id="container"
+//         className="relative overflow-hidden h-screen w-screen"
+//         style={{ backgroundColor: "#0C0C0C" }} // Ensure consistent background color
+//       >
+//         {/* Responsive image settings for Safari */}
+//         <img
+//           className=" md:hidden block absolute bottom-0 left-[50%] h-[350px] object-contain transform translate-x-[-50%] z-50 md:ml-[400px] md:h-[400px] md:w-[400px]"
+//           src="./pixelcut-export.png"
+//           alt="error"
+//           style={{
+//             // width: '100%',   // Default width to make it responsive
+//             // maxWidth: '370px',  // Restrict maximum width
+//             // height: '350px',   // Maintain aspect ratio
+//             // objectFit: 'contain',
+//           }}
+//         />
+//           <img
+//           className="absolute bottom-0 left-[50%] h-[650px] object-contain transform hidden md:block z-50"
+//           src="./pixelcut-export.png"
+//           alt="error"
+//           style={{
+//             // width: '100%',   // Default width to make it responsive
+//             // maxWidth: '370px',  // Restrict maximum width
+//             // height: '350px',   // Maintain aspect ratio
+//             // objectFit: 'contain',
+//           }}
+//         />
+//         {/* Safari-specific height */}
+//         <style>
+//           {`
+//             @supports (-webkit-touch-callout: none) {
+//               img[src='./pixelcut-export.png'] {
+//                 height: 250px !important; /* Safari-specific height */
+//               }
+//             }
+
+//             /* Remove background-attachment: fixed for mobile */
+//             @media screen and (max-width: 768px) {
+//               div[style*="background-attachment: fixed"] {
+//                 background-attachment: scroll !important;
+//               }
+//             }
+//           `}
+//         </style>
+
+//         <div
+//           id="orange"
+//           className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
+//         >
+//           <h1
+//             className="md:text-[100px] text-[40px] pl-[96px] mt-5 "
+//             style={{ fontFamily: "NeueMachina" }}
+//           >
+//             CYBER<span className='text-green-400'>SAFE</span>
+//             <br />
+//             CHECKPOINT
+//           </h1>
+//           <div
+//             className="mt-[50px] p-8 rounded-2xl ml-4 mr-4 md:w-[500px] md:ml-[108px] neon-rose"
+//             // style={{ backgroundColor: "#24CFA6" }}
+//           >
+//             <p
+//               className="text-[25px]"
+//               style={{ fontFamily: "Gilroy" }}
+//             >
+//               "Think your device is secure? Let Cybersafe Checkpoint reveal the
+//               truth—protect your data before it's too late!"
+//             </p>
+//           </div>
+//           <div className="flex mt-[40px] md:block md:pl-[108px] justify-evenly">
+//             <h1 
+//               style={{ fontFamily: "NeueMachina" }}
+//             >
+//               09-10-2024
+//             </h1>
+//             <img
+//               style={registerButtonStyle}
+//               className="h-[45px] w-[45px] md:h-[60px] md:w-[180px] text-white rounded-xl"
+//               src="./icons8-arrow-50.png"
+//               alt="error"
+//             />
+//           </div>
+//         </div>
+//         <div
+//           id="purple"
+//           className="absolute top-0 left-0 text-white text-5xl bg-slate-950 h-full w-screen"
+//         >
+//           <h1
+//             className="md:text-[100px] text-[35px] pl-[96px] mt-5"
+//             style={{ fontFamily: "NeueMachina" }}
+//           >
+//             ADRISHYAM
+//           </h1>
+//           <div
+//             className="mt-[83px] md:mt-[209px] p-5 rounded-2xl ml-4 mr-4 neon-lime"
+//             // style={{ backgroundColor: "#24CFA6" }}
+//           >
+//             <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
+//               "Think you can escape the ordinary? Step into Adrishyam, where
+//               your wits are your only way out! Can you break free before time
+//               runs out?"
+//             </p>
+//           </div>
+//           <div className="flex mt-[40px] justify-evenly">
+//             <h1 style={{ fontFamily: "NeueMachina" }}>18-10-2024</h1>
+//             <img
+//               style={registerButtonStyle}
+//               className="h-[45px] w-[45px] text-white rounded-xl"
+//               src="./icons8-arrow-50.png"
+//               alt="error"
+//             />
+//           </div>
+//         </div>
+//         <div
+//           id="green"
+//           className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
+//         >
+//           Onkar
+//         </div>
+//       </div>
+//     </motion.div>
+//   );
+// }
+
+// export default Homepage;
+
 import React from 'react';
 import Navbar from './Navbar';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import {motion} from 'framer-motion';
-
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -610,15 +798,18 @@ function Homepage() {
   }, []);
 
   return (
-    <motion.div initial={{opacity:0}}
-    animate={{opacity:1}}
-    exit={{opacity:0}}
-    transition={{ duration: 2 }}> 
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 2 }}
+      style={{ overflowY: 'scroll' }} // Ensure proper scroll handling
+    >
       {/* Background section */}
-      <div style={backgroundStyle} className="bg-dark-primary"> 
+      <div style={backgroundStyle} className="bg-dark-primary">
         <Navbar />
       </div>
-               
+
       <div
         id="container"
         className="relative overflow-hidden h-screen w-screen"
@@ -626,34 +817,27 @@ function Homepage() {
       >
         {/* Responsive image settings for Safari */}
         <img
-          className=" md:hidden block absolute bottom-0 left-[50%] h-[350px] object-contain transform translate-x-[-50%] z-50 md:ml-[400px] md:h-[400px] md:w-[400px]"
+          className="md:hidden block absolute bottom-0 left-[50%] h-[350px] object-contain transform translate-x-[-50%] z-50 md:ml-[400px] md:h-[400px] md:w-[400px]"
           src="./pixelcut-export.png"
           alt="error"
-          style={{
-            // width: '100%',   // Default width to make it responsive
-            // maxWidth: '370px',  // Restrict maximum width
-            // height: '350px',   // Maintain aspect ratio
-            // objectFit: 'contain',
-          }}
         />
-          <img
+        <img
           className="absolute bottom-0 left-[50%] h-[650px] object-contain transform hidden md:block z-50"
           src="./pixelcut-export.png"
           alt="error"
-          style={{
-            // width: '100%',   // Default width to make it responsive
-            // maxWidth: '370px',  // Restrict maximum width
-            // height: '350px',   // Maintain aspect ratio
-            // objectFit: 'contain',
-          }}
         />
-        {/* Safari-specific height */}
+
         <style>
           {`
-            @supports (-webkit-touch-callout: none) {
-              img[src='./pixelcut-export.png'] {
-                height: 250px !important; /* Safari-specific height */
-              }
+            /* Hide scrollbars for WebKit browsers (Chrome, Safari) */
+            ::-webkit-scrollbar {
+              display: none;
+            }
+
+            /* Hide scrollbar for Firefox */
+            body {
+              scrollbar-width: none; /* For Firefox */
+              -ms-overflow-style: none; /* For Internet Explorer and Edge */
             }
 
             /* Remove background-attachment: fixed for mobile */
@@ -670,39 +854,27 @@ function Homepage() {
           className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
         >
           <h1
-            className="md:text-[100px] text-[35px] pl-[96px] mt-5"
+            className="md:text-[100px] text-[40px] md:pl-[94px] pl-[79px] mt-5 "
             style={{ fontFamily: "NeueMachina" }}
           >
-            CYBERSAFE
+            CYBER<span className="text-green-400">SAFE</span>
             <br />
             CHECKPOINT
           </h1>
           <div
             className="mt-[50px] p-8 rounded-2xl ml-4 mr-4 md:w-[500px] md:ml-[108px] neon-rose"
-            // style={{ backgroundColor: "#24CFA6" }}
           >
-            <p
-              className="text-[25px]"
-              style={{ fontFamily: "Gilroy" }}
-            >
+            <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
               "Think your device is secure? Let Cybersafe Checkpoint reveal the
               truth—protect your data before it's too late!"
             </p>
           </div>
-          <div className="flex mt-[40px] md:block md:pl-[108px] justify-evenly">
-            <h1 
-              style={{ fontFamily: "NeueMachina" }}
-            >
-              09-10-2024
-            </h1>
-            <img
-              style={registerButtonStyle}
-              className="h-[45px] w-[45px] md:h-[60px] md:w-[180px] text-white rounded-xl"
-              src="./icons8-arrow-50.png"
-              alt="error"
-            />
+          <div className="flex flex-row mt-[40px] md:block md:pl-[108px] justify-evenly">
+            <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>09</span>-10-2024</h1>
+            <button className=''> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-6 border-rose-300' alt="" /></button>
           </div>
         </div>
+
         <div
           id="purple"
           className="absolute top-0 left-0 text-white text-5xl bg-slate-950 h-full w-screen"
@@ -713,10 +885,7 @@ function Homepage() {
           >
             ADRISHYAM
           </h1>
-          <div
-            className="mt-[83px] md:mt-[209px] p-5 rounded-2xl ml-4 mr-4 neon-lime"
-            // style={{ backgroundColor: "#24CFA6" }}
-          >
+          <div className="mt-[83px] md:mt-[209px] p-5 rounded-2xl ml-4 mr-4 neon-lime">
             <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
               "Think you can escape the ordinary? Step into Adrishyam, where
               your wits are your only way out! Can you break free before time
@@ -733,6 +902,7 @@ function Homepage() {
             />
           </div>
         </div>
+
         <div
           id="green"
           className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
