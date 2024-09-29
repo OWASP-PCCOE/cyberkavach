@@ -53,6 +53,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useParams, Navigate } from 'react-router-dom';
 import HomePage from './components/Homepage';
 import Event from './components/Event';
+import PreLoader from './components/PreLoader';
+
 
 function DynamicEvent() {
   const { eventId } = useParams();
@@ -98,6 +100,7 @@ function DynamicEvent() {
 function App() {
   return (
     <Router>
+      <PreLoader/>
       <div className='overflow-x-hidden'>
         <Routes>
           <Route path="/" element={<HomePage />} />
