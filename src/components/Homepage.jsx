@@ -819,7 +819,7 @@ function Homepage() {
       <div style={backgroundStyle}  className="bg-dark-primary">
       {/* className="bg-dark-primary" */}
         <Navbar />
-        {/* <div><img src="homepage-logo.jpeg" className='h-[400px] w-[400px] md:ml-[553px] ml-2 z-50' alt="" /></div> */}
+        <div><img src="homepage-logo.jpeg" className='h-[400px] w-[400px] md:ml-[553px] ml-2' alt="" /></div>
          {/* <div><img src="cyber-font-7.png" className='md:pl-[267px] md:mt-0 mt-[55px] z-50' alt="" /></div> */}
       </div>
       <div
