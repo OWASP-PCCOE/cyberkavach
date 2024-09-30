@@ -814,11 +814,13 @@ function Homepage() {
       transition={{ duration: 2 }}
       style={{ overflowY: 'scroll' }} // Ensure proper scroll handling
     >
-      {/* Background section */}
-      <div style={backgroundStyle} className="bg-dark-primary">
-        <Navbar />
-      </div>
 
+      {/* Background section */}
+      <div style={backgroundStyle}  className="bg-dark-primary">
+        <Navbar />
+        <div><img src="homepage-logo.jpeg" className='h-[400px] w-[400px] md:ml-[553px] ml-2' alt="" /></div>
+         <div><img src="cyber-font-7.png" className='md:pl-[267px] md:mt-0 mt-[55px] ' alt="" /></div>
+      </div>
       <div
         id="container"
         className="relative overflow-hidden h-screen w-screen"
@@ -958,10 +960,10 @@ function Homepage() {
           className="absolute top-0 left-0 text-white text-5xl bg-slate-950 h-full w-screen"
         >
           <h1
-            className="md:text-[100px] text-[46px] pl-[96px] mt-5 text-red-400"
+            className="md:text-[100px] text-[46px] pl-[96px] mt-5 text-green-100"
             style={{ fontFamily: "NeueMachina" }}
           >
-            DOMINO<br/>EFFECT
+             MRIGAYA
           </h1>
           <div className="mt-[40px] md:mt-[209px] p-5 rounded-2xl ml-4 mr-4 neon-lime">
             <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
