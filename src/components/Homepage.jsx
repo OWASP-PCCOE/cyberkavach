@@ -776,13 +776,22 @@ function Homepage() {
     gsap.defaults({ ease: "sine.inOut", duration: 3 });
 
     const tl = gsap.timeline();
-    tl.from("#orange", {
-      xPercent: -100,
-    })
-      .from("#purple", {
+      tl.from("#one", {
+        xPercent: -100,
+      })
+      .from("#two", {
         xPercent: 100,
       })
-      .from("#green", {
+      .from("#three", {
+        yPercent: -100,
+      })
+      .from("#four", {
+        xPercent: -100,
+      })
+      .from("#five", {
+        xPercent: 100,
+      })
+      .from("#six", {
         yPercent: -100,
       });
 
@@ -850,7 +859,7 @@ function Homepage() {
         </style>
 
         <div
-          id="orange"
+          id="one"
           className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
         >
           <h1
@@ -874,13 +883,57 @@ function Homepage() {
             <button className=''> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-6 border-rose-300' alt="" /></button>
           </div>
         </div>
-
+            
         <div
-          id="purple"
+          id="two"
           className="absolute top-0 left-0 text-white text-5xl bg-slate-950 h-full w-screen"
         >
           <h1
-            className="md:text-[100px] text-[35px] pl-[96px] mt-5"
+            className="md:text-[100px] text-[46px] pl-[96px] mt-5 text-yellow-200"
+            style={{ fontFamily: "NeueMachina" }}
+          >
+            FACULTY<br/>SESSION
+          </h1>
+          <div className="mt-[50px] md:mt-[209px] p-5 rounded-2xl ml-4 mr-4 neon-blue">
+            <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
+            "Empower Your Digital Defense: Join Us for an Exclusive Faculty Cybersecurity Session!"
+            </p>
+          </div>
+          <div className="flex mt-[40px] justify-evenly">
+            <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>14</span>-10-2024</h1>
+            <button className=''> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-6 border-rose-300' alt="" /></button>
+          </div>
+        </div>
+
+        <div
+          id="three"
+          className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
+        >
+          <h1
+            className="md:text-[100px] text-[48px] md:pl-[94px] pl-[79px] mt-5 "
+            style={{ fontFamily: "NeueMachina" }}
+          >
+            MOCK <span className="text-rose-400">GRE</span>
+          </h1>
+          <div
+            className="mt-[92px] p-8 rounded-2xl ml-4 mr-4 md:w-[500px] md:ml-[108px] neon-yellow"
+          >
+            <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
+            "Crack the GRE Code: Test Your Skills and Step Closer to Your Dream University!"
+            </p>
+          </div>
+          <div className="flex flex-row mt-[40px] md:block md:pl-[108px] justify-evenly">
+            <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>16</span>-10-2024</h1>
+            <button className=''> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-6 border-rose-300' alt="" /></button>
+          </div>
+        </div>
+
+        <div
+          id="four"
+          className="absolute top-0 left-0 text-white text-5xl bg-slate-950 h-full w-screen"
+        >
+          <h1
+            className="md:text-[100px] text-[46px] pl-[79px] mt-5 text-red-400"
             style={{ fontFamily: "NeueMachina" }}
           >
             ADRISHYAM
@@ -893,21 +946,54 @@ function Homepage() {
             </p>
           </div>
           <div className="flex mt-[40px] justify-evenly">
-            <h1 style={{ fontFamily: "NeueMachina" }}>18-10-2024</h1>
-            <img
-              style={registerButtonStyle}
-              className="h-[45px] w-[45px] text-white rounded-xl"
-              src="./icons8-arrow-50.png"
-              alt="error"
-            />
+            <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>18</span>-10-2024</h1>
+            <button className=''> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-6 border-rose-300' alt="" /></button>
           </div>
         </div>
 
+
+     
         <div
-          id="green"
-          className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
+          id="five"
+          className="absolute top-0 left-0 text-white text-5xl bg-slate-950 h-full w-screen"
         >
-          Onkar
+          <h1
+            className="md:text-[100px] text-[46px] pl-[96px] mt-5 text-red-400"
+            style={{ fontFamily: "NeueMachina" }}
+          >
+            DOMINO<br/>EFFECT
+          </h1>
+          <div className="mt-[40px] md:mt-[209px] p-5 rounded-2xl ml-4 mr-4 neon-lime">
+            <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
+              "Think you can escape the ordinary? Step into Adrishyam, where
+              your wits are your only way out! Can you break free before time
+              runs out?"
+            </p>
+          </div>
+          <div className="flex mt-[40px] justify-evenly">
+            <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>21</span>-10-2024</h1>
+            <button className=''> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-6 border-rose-300' alt="" /></button>
+          </div>
+        </div>
+        <div
+          id="six"
+          className="absolute top-0 left-0 text-white text-5xl bg-slate-950 h-full w-screen"
+        >
+          <h1
+            className="md:text-[100px] text-[46px] pl-[70px] mt-5 text-emerald-400"
+            style={{ fontFamily: "NeueMachina" }}
+          >
+            QUEST-CON<br/>
+          </h1>
+          <div className="mt-[50px] md:mt-[209px] p-5 rounded-2xl ml-4 mr-4 neon-blue">
+            <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
+            "Embark on the Ultimate Cyber Challenge: Unravel Mysteries at QUEST-CON!"
+            </p>
+          </div>
+          <div className="flex mt-[40px] justify-evenly">
+            <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>22</span>-10-2024</h1>
+            <button className=''> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-6 border-rose-300' alt="" /></button>
+          </div>
         </div>
       </div>
     </motion.div>
