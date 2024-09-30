@@ -458,10 +458,10 @@ function Event({ content, imageSrc, eventId, totalEvents }) {
         </div>
 
         {/* Details Button adjusted to be visible within the viewport */}
-        <div className="w-full flex justify-center mt-2 mb-8 z-20 md:mb-0">
-          <button
+        <div className="w-full flex justify-center mt-2 mb-8 z-20 md:mb-0 ">
+          <button 
             onClick={handleToggle}
-            className="p-2 pl-20 pr-20 rounded-[10px] text-[15px]"
+            className="p-2 pl-20 pr-20 rounded-[10px] text-[15px] border-2 border-rose-200"
             style={{ fontFamily: 'Gilroy', backgroundColor: '#222222' }}
           >
             <img src="/arrow-up.png" alt="arrow up" />
