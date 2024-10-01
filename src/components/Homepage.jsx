@@ -820,7 +820,7 @@ function Homepage() {
       {/* className="bg-dark-primary" */}
         <Navbar />
  
-        <div><img src="./homepage-logo.jpeg" className='h-[200px] w-[200px] md:ml-[513px] ml-[15px] md:h-[500px] md:w-[500px]z-50' alt="" /></div>
+        <div><img src="./homepage-logo.jpeg" className='h-[300px] w-[300px]  md:w-[500px] md:ml-[513px] ml-[15px] md:h-[500px] md:w-[500px]z-50' alt="" /></div>
          <div><img src="./cyber-font-7.png" className='md:pl-[275px] md:mt-[-35px] mt-[55px] pl-[33px] z-50' alt="" /></div>
          {/* md:-translate-y-[30px] */}
       </div>
@@ -989,7 +989,7 @@ function Homepage() {
         </div>
         <div
           id="six"
-          className="absolute top-0 left-0 text-white text-5xl bg-slate-950 h-full w-screen"
+          className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
         >
           <h1
             className="md:text-[100px] text-[46px] pl-[70px] mt-5 text-emerald-400"
