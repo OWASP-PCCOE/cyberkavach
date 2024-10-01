@@ -618,7 +618,7 @@
 //       <div style={backgroundStyle} className="bg-dark-primary"> 
 //         <Navbar />
 //       </div>
-               
+
 //       <div
 //         id="container"
 //         className="relative overflow-hidden h-screen w-screen"
@@ -751,7 +751,7 @@ import Navbar from './Navbar';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -776,9 +776,9 @@ function Homepage() {
     gsap.defaults({ ease: "sine.inOut", duration: 3 });
 
     const tl = gsap.timeline();
-      tl.from("#one", {
-        xPercent: -100,
-      })
+    tl.from("#one", {
+      xPercent: -100,
+    })
       .from("#two", {
         xPercent: 100,
       })
@@ -816,24 +816,24 @@ function Homepage() {
     >
 
       {/* Background section */}
-      <div style={backgroundStyle}  className="bg-dark-primary">
-      {/* className="bg-dark-primary" */}
+      <div style={backgroundStyle} className="bg-dark-primary">
+        {/* className="bg-dark-primary" */}
         <Navbar />
- 
-        <div><img src="./homepage-logo.jpeg" className='h-[300px] w-[300px]  md:w-[500px] md:ml-[513px] ml-[52px] md:h-[500px] md:w-[500px]z-50' alt="" /></div>
-         <div><img src="./cyber-font-7.png" className='md:pl-[275px] md:mt-[-35px] mt-[55px] pl-[33px] z-50' alt="" /></div>
-         {/* md:-translate-y-[30px] */}
+
+        <div><img src="./homepage-logo.jpeg" className=' md:w-[500px] md:ml-[513px] md:h-[500px] md:w-[500px]z-50' alt="" /></div>
+        <div><img src="./cyber-font-7.png" className='md:pl-[275px] md:mt-[-35px] mt-[55px] pl-[33px] z-50' alt="" /></div>
+        {/* md:-translate-y-[30px] */}
       </div>
       <div
         id="container"
         className="relative overflow-hidden h-screen w-screen"
         style={{ backgroundColor: "#0C0C0C" }} // Ensure consistent background color
-      >  
+      >
         <div style={{ fontFamily: "Gilroy" }} className='text-white md:text-3xl text-2xl md:w-[450px] neon-green rounded-xl md:ml-[150px] md:mt-[210px] p-8 mt-[60px] m-6'>
-        "Stay ahead in the game of cybersecurity! Check out the CyberKavach event timeline and mark your calendar for a month of action-packed learning and challenges!"
+          "Stay ahead in the game of cybersecurity! Check out the CyberKavach event timeline and mark your calendar for a month of action-packed learning and challenges!"
         </div>
-        <div  style={{ fontFamily: 'NeueMachina' }} className='text-white opacity-50 text-[24px] hover:opacity-90 ml-[70px] md:ml-[200px]'>Scroll Down smoothly</div>
-   
+        <div style={{ fontFamily: 'NeueMachina' }} className='text-white opacity-50 text-[24px] hover:opacity-90 ml-[70px] md:ml-[200px]'>Scroll Down smoothly</div>
+
         {/* Responsive image settings for Safari */}
         <img
           className="md:hidden block absolute bottom-0 left-[50%] h-[350px] object-contain transform translate-x-[-50%] z-50 md:ml-[400px] md:h-[400px] md:w-[400px]"
@@ -867,6 +867,21 @@ function Homepage() {
                 background-attachment: scroll !important;
               }
             }
+
+            @media screen and (min-width: 431px) and (min-device-width: 320px) {
+            .homepage-logo {
+              height: 360px;
+              width: 360px;
+              margin-left: 80px; /* Adjusted margin for Android devices */
+            }
+          }
+           @media screen and (max-width: 430px) and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+            .homepage-logo {
+             height: 300px;
+             width: 300px;
+             margin-left: 52px; /* Keep the same as your current value */
+             }
+            } 
           `}
         </style>
 
@@ -895,7 +910,7 @@ function Homepage() {
             <button className='' > <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
           </div>
         </div>
-            
+
         <div
           id="two"
           className="absolute top-0 left-0 text-white text-5xl bg-slate-950 h-full w-screen"
@@ -904,11 +919,11 @@ function Homepage() {
             className="md:text-[100px] text-[46px] pl-[96px] md:pl-[110px] mt-5 text-yellow-200 "
             style={{ fontFamily: "NeueMachina" }}
           >
-            FACULTY<br/>SESSION
+            FACULTY<br />SESSION
           </h1>
           <div className="mt-[50px] md:mt-[80px] p-5 rounded-2xl ml-4 mr-4 neon-blue md:w-[500px] md:ml-[108px]">
             <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
-            "Empower Your Digital Defense: Join Us for an Exclusive Faculty Cybersecurity Session!"
+              "Empower Your Digital Defense: Join Us for an Exclusive Faculty Cybersecurity Session!"
             </p>
           </div>
           <div className="flex flex-row mt-[40px] md:w-[600px] md:pl-[37px] justify-evenly">
@@ -931,7 +946,7 @@ function Homepage() {
             className="mt-[68px] md:mt-[92px] p-8 rounded-2xl ml-4 mr-4 md:w-[500px] md:ml-[108px] neon-yellow"
           >
             <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
-            "Crack the GRE Code: Test Your Skills and Step Closer to Your Dream University!"
+              "Crack the GRE Code: Test Your Skills and Step Closer to Your Dream University!"
             </p>
           </div>
           <div className="flex flex-row mt-[40px] md:w-[600px] md:pl-[37px] justify-evenly">
@@ -964,7 +979,7 @@ function Homepage() {
         </div>
 
 
-     
+
         <div
           id="five"
           className="absolute top-0 left-0 text-white text-5xl bg-slate-950 h-full w-screen"
@@ -973,7 +988,7 @@ function Homepage() {
             className="md:text-[100px] text-[46px] pl-[96px] mt-5 text-green-100"
             style={{ fontFamily: "NeueMachina" }}
           >
-             MRIGAYA
+            MRIGAYA
           </h1>
           <div className="mt-[40px] md:mt-[80px] p-5 rounded-2xl ml-4 mr-4 neon-purple md:w-[500px] md:ml-[84px]">
             <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
@@ -995,11 +1010,11 @@ function Homepage() {
             className="md:text-[100px] text-[46px] pl-[70px] mt-5 text-emerald-400"
             style={{ fontFamily: "NeueMachina" }}
           >
-            QUEST-CON<br/>
+            QUEST-CON<br />
           </h1>
           <div className="mt-[50px] md:mt-[80px] p-5 rounded-2xl ml-4 mr-4 neon-indigo   md:w-[500px] md:ml-[84px]">
             <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
-            "Embark on the Ultimate Cyber Challenge: Unravel Mysteries at QUEST-CON!"
+              "Embark on the Ultimate Cyber Challenge: Unravel Mysteries at QUEST-CON!"
             </p>
           </div>
           <div className="flex flex-row mt-[40px] md:w-[600px] md:pl-[11px] justify-evenly">
@@ -1009,25 +1024,25 @@ function Homepage() {
         </div>
       </div>
       <div id='sponsors' className='h-screen w-screen '>
-           <div className='text-white text-[47px] text-center'  style={{ fontFamily: "NeueMachina" }}>Our <span className='text-green-400'>Esteemed</span> <br /> Sponsors</div>
-           <div className='flex flex-col h-auto mt-[25px] items-center'>
-            
-                <img src="/raaga.png" className='h-[120px] w-[127px] ml-[18px] md:ml-[6px] mt-4 p-2 neon-lime rounded-xl 'alt="error" />
-                  
-            
-                 <div className='flex mt-[32px] ml-[46px] p-2 neon-lime rounded-xl mr-[31px] md:w-[500px] md:items-center justify-center'>
-                    <img src="/wetnjoy.png" className='h-[120px] w-[127px] mt-4 ml-[8px] ' alt="error" /> 
-                    <img src="/belgiumwaffle.png" className='h-[120px] w-[127px] mt-4 ml-[40px]' alt="error" />
-      
-                 </div>
-       
-                 <div className='flex mt-[32px] ml-[46px] p-2 neon-lime rounded-xl mr-[31px] md:w-[500px] md:items-center justify-center'>
-                    <img src="/backbencherscafe.png" className='h-[120px] w-[127px] mt-4' alt="error" />
-                    <img src="/attenction.png" className='h-[120px] w-[127px] mt-4 ml-[30px]' alt="error" />
-                 </div>
-              
-           </div>
+        <div className='text-white text-[47px] text-center' style={{ fontFamily: "NeueMachina" }}>Our <span className='text-green-400'>Esteemed</span> <br /> Sponsors</div>
+        <div className='flex flex-col h-auto mt-[25px] items-center'>
+
+          <img src="/raaga.png" className='h-[120px] w-[127px] ml-[18px] md:ml-[6px] mt-4 p-2 neon-lime rounded-xl ' alt="error" />
+
+
+          <div className='flex mt-[32px] ml-[46px] p-2 neon-lime rounded-xl mr-[31px] md:w-[500px] md:items-center justify-center'>
+            <img src="/wetnjoy.png" className='h-[120px] w-[127px] mt-4 ml-[8px] ' alt="error" />
+            <img src="/belgiumwaffle.png" className='h-[120px] w-[127px] mt-4 ml-[40px]' alt="error" />
+
+          </div>
+
+          <div className='flex mt-[32px] ml-[46px] p-2 neon-lime rounded-xl mr-[31px] md:w-[500px] md:items-center justify-center'>
+            <img src="/backbencherscafe.png" className='h-[120px] w-[127px] mt-4' alt="error" />
+            <img src="/attenction.png" className='h-[120px] w-[127px] mt-4 ml-[30px]' alt="error" />
+          </div>
+
         </div>
+      </div>
     </motion.div>
   );
 }
