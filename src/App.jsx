@@ -63,7 +63,7 @@ function DynamicEvent() {
   const eventData = [
     {
       content: "In computer science and operations research, approximation algorithms are efficient algorithms that find approximate solutions to optimization problems (in particular NP-hard problems) with provable guarantees on the distance of the returned solution to the optimal one.",
-      imageSrc: "/ethical_hacking.png"
+      imageSrc: "/checkpoint.png"
     },
     {
       content: "In computer science and operations research, approximation algorithms are efficient algorithms that find approximate solutions to optimization problems (in particular NP-hard problems) with provable guarantees on the distance of the returned solution to the optimal one.",
