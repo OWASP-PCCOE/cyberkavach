@@ -819,7 +819,7 @@ function Homepage() {
       <div style={backgroundStyle}  className="bg-dark-primary">
       {/* className="bg-dark-primary" */}
         <Navbar />
-        <div><img src="homepage-logo.jpeg" className='h-[400px] w-[400px] md:ml-[513px] ml-[9px] md:h-[500px] md:w-[500px] md:-translate-y-[30px]' alt="" /></div>
+        <div><img src="homepage-logo.jpeg" className='h-[400px] w-[400px] md:ml-[513px] ml-[15px] md:h-[500px] md:w-[500px] md:-translate-y-[30px]' alt="" /></div>
          <div><img src="cyber-font-7.png" className='md:pl-[275px] md:mt-[-35px] mt-[55px] z-50' alt="" /></div>
       </div>
       <div
@@ -890,7 +890,7 @@ function Homepage() {
           </div>
           <div className="flex flex-row md:mt-[40px] mt-[35px] md:w-[600px] md:pl-[37px] justify-evenly">
             <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>09</span>-10-2024</h1>
-            <button className=''> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
+            <button className='' > <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
           </div>
         </div>
             
@@ -995,7 +995,7 @@ function Homepage() {
           >
             QUEST-CON<br/>
           </h1>
-          <div className="mt-[50px] md:mt-[80px] p-5 rounded-2xl ml-4 mr-4 neon-indigo  md:w-[500px] md:ml-[84px]">
+          <div className="mt-[50px] md:mt-[80px] p-5 rounded-2xl ml-4 mr-4 neon-indigo   md:w-[500px] md:ml-[84px]">
             <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
             "Embark on the Ultimate Cyber Challenge: Unravel Mysteries at QUEST-CON!"
             </p>
