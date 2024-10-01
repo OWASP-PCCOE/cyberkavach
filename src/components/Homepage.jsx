@@ -1006,6 +1006,26 @@ function Homepage() {
           </div>
         </div>
       </div>
+      <div id='sponsors' className='h-screen w-screen '>
+           <div className='text-white text-[47px] text-center'  style={{ fontFamily: "NeueMachina" }}>Our <span className='text-green-400'>Esteemed</span> <br /> Sponsors</div>
+           <div className='flex flex-col h-auto mt-[25px] items-center'>
+            
+                <img src="/raaga.png" className='h-[120px] w-[127px] ml-[18px] md:ml-[6px] mt-4 p-2 neon-lime rounded-xl 'alt="error" />
+                  
+            
+                 <div className='flex mt-[32px] ml-[46px] p-2 neon-lime rounded-xl mr-[31px] md:w-[500px] md:items-center justify-center'>
+                    <img src="/wetnjoy.png" className='h-[120px] w-[127px] mt-4 ml-[8px] ' alt="error" /> 
+                    <img src="/belgiumwaffle.png" className='h-[120px] w-[127px] mt-4 ml-[40px]' alt="error" />
+      
+                 </div>
+       
+                 <div className='flex mt-[32px] ml-[46px] p-2 neon-lime rounded-xl mr-[31px] md:w-[500px] md:items-center justify-center'>
+                    <img src="/backbencherscafe.png" className='h-[120px] w-[127px] mt-4' alt="error" />
+                    <img src="/attenction.png" className='h-[120px] w-[127px] mt-4 ml-[30px]' alt="error" />
+                 </div>
+              
+           </div>
+        </div>
     </motion.div>
   );
 }
