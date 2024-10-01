@@ -752,6 +752,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -805,6 +806,11 @@ function Homepage() {
       anticipatePin: 1,
     });
   }, []);
+   
+  const navigate = useNavigate(); 
+  const handleEventClick = (eventId) => {
+    navigate(`/events/${eventId}`); 
+  };
 
   return (
     <motion.div
@@ -907,7 +913,7 @@ function Homepage() {
           </div>
           <div className="flex flex-row md:mt-[40px] mt-[35px] md:w-[600px] md:pl-[37px] justify-evenly">
             <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>09</span>-10-2024</h1>
-            <button className='' > <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
+            <button onClick={() => handleEventClick(1)} > <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
           </div>
         </div>
 
@@ -928,7 +934,7 @@ function Homepage() {
           </div>
           <div className="flex flex-row mt-[40px] md:w-[600px] md:pl-[37px] justify-evenly">
             <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>14</span>-10-2024</h1>
-            <button className=''> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
+            <button onClick={() => handleEventClick(2)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
           </div>
         </div>
 
@@ -951,7 +957,7 @@ function Homepage() {
           </div>
           <div className="flex flex-row mt-[40px] md:w-[600px] md:pl-[37px] justify-evenly">
             <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>16</span>-10-2024</h1>
-            <button className=''> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
+            <button onClick={() => handleEventClick(3)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
           </div>
         </div>
 
@@ -974,7 +980,7 @@ function Homepage() {
           </div>
           <div className="flex flex-row mt-[40px] md:w-[600px] md:pl-[11px] justify-evenly">
             <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>18</span>-10-2024</h1>
-            <button className=''> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
+            <button onClick={() => handleEventClick(4)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
           </div>
         </div>
 
@@ -999,7 +1005,7 @@ function Homepage() {
           </div>
           <div className="flex flex-row mt-[40px] md:w-[600px] md:pl-[37px] justify-evenly">
             <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>21</span>-10-2024</h1>
-            <button className=''> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
+            <button onClick={() => handleEventClick(5)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
           </div>
         </div>
         <div
@@ -1019,7 +1025,7 @@ function Homepage() {
           </div>
           <div className="flex flex-row mt-[40px] md:w-[600px] md:pl-[11px] justify-evenly">
             <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>22</span>-10-2024</h1>
-            <button className=''> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
+            <button onClick={() => handleEventClick(6)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
           </div>
         </div>
       </div>
