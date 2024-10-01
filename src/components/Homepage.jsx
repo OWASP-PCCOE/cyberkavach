@@ -819,14 +819,19 @@ function Homepage() {
       <div style={backgroundStyle}  className="bg-dark-primary">
       {/* className="bg-dark-primary" */}
         <Navbar />
-        <div><img src="homepage-logo.jpeg" className='h-[400px] w-[400px] md:ml-[553px] ml-2' alt="" /></div>
-         <div><img src="cyber-font-7.png" className='md:pl-[267px] md:mt-0 mt-[55px] z-50' alt="" /></div>
+        <div><img src="homepage-logo.jpeg" className='h-[400px] w-[400px] md:ml-[513px] ml-[9px] md:h-[500px] md:w-[500px] md:-translate-y-[30px]' alt="" /></div>
+         <div><img src="cyber-font-7.png" className='md:pl-[275px] md:mt-[-35px] mt-[55px] z-50' alt="" /></div>
       </div>
       <div
         id="container"
         className="relative overflow-hidden h-screen w-screen"
         style={{ backgroundColor: "#0C0C0C" }} // Ensure consistent background color
-      >
+      >  
+        <div style={{ fontFamily: "Gilroy" }} className='text-white md:text-3xl text-2xl md:w-[450px] neon-green rounded-xl md:ml-[150px] md:mt-[210px] p-8 mt-[60px] m-6'>
+        "Stay ahead in the game of cybersecurity! Check out the CyberKavach event timeline and mark your calendar for a month of action-packed learning and challenges!"
+        </div>
+        <div  style={{ fontFamily: 'NeueMachina' }} className='text-white opacity-50 text-[24px] hover:opacity-90 ml-[70px] md:ml-[200px]'>Scroll Down smoothly</div>
+   
         {/* Responsive image settings for Safari */}
         <img
           className="md:hidden block absolute bottom-0 left-[50%] h-[350px] object-contain transform translate-x-[-50%] z-50 md:ml-[400px] md:h-[400px] md:w-[400px]"
