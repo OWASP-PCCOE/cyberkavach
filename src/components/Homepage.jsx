@@ -820,7 +820,7 @@ function Homepage() {
       {/* className="bg-dark-primary" */}
         <Navbar />
  
-        {/* <div><img src="./homepage-logo.jpeg" className='h-[400px] w-[400px] md:ml-[513px] ml-[15px] md:h-[500px] md:w-[500px] md:-translate-y-[30px]' alt="" /></div> */}
+        <div><img src="./raaga.png" className='h-[400px] w-[400px] md:ml-[513px] ml-[15px] md:h-[500px] md:w-[500px] md:-translate-y-[30px]' alt="" /></div>
          <div><img src="./cyber-font-7.png" className='md:pl-[275px] md:mt-[-35px] mt-[55px] pl-[33px] z-50' alt="" /></div>
       </div>
       <div
