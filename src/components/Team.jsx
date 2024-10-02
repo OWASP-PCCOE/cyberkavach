@@ -196,7 +196,7 @@ function Team() {
                         <p>Meet Our <span className='text-green-400'>Directors</span></p>
                     </div>
                     <div className='flex flex-wrap justify-center'>
-                        <div className='h-auto w-[160px] rounded-[15px] neon-green ml-[5px]'>
+                        <div className='h-auto w-[170px] rounded-[15px] neon-green ml-[5px]'>
                             <img src="/team/Mrunal-removebg-preview (1).png" className='-translate-x-3 -translate-y-2' alt="" />
                             <div className='flex flex-col'>
                                 <p className='text-white text-[20px] pl-2' style={{ fontFamily: 'NeueMachina' }}>Mrunal Chopade</p>
@@ -207,7 +207,7 @@ function Team() {
                                 </div>
                             </div>
                         </div>
-                        <div className='h-auto w-[160px] rounded-[15px] neon-green md:ml-8 ml-2'>
+                        <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Asmita-removebg-preview (1).png" alt="" />
                             <div className='flex flex-col'>
                                 <p className='text-white text-[20px] pl-2' style={{ fontFamily: 'NeueMachina' }}>Asmita Mahamuni</p>
@@ -218,7 +218,7 @@ function Team() {
                                 </div>
                             </div>
                         </div>
-                        <div className='h-auto w-[160px] rounded-[15px] neon-green md:ml-8 ml-[5px] md:mt-0 mt-[17px]'>
+                        <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-[5px] md:mt-0 mt-[17px]'>
                             <img src="team/Deep-removebg-preview (1).png" alt="" />
                             <div className='flex flex-col'>
                                 <p className='text-white text-[20px] pl-7' style={{ fontFamily: 'NeueMachina' }}>Deep Dhakate</p>
@@ -229,7 +229,7 @@ function Team() {
                                 </div>
                             </div>
                         </div>
-                        <div className='h-auto w-[160px] rounded-[15px] neon-green md:ml-8 ml-2 md:mt-0 mt-[17px]'>
+                        <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2 md:mt-0 mt-[17px]'>
                             <img src="team/Mrudula-removebg-preview (1).png" alt="" />
                             <div className='flex flex-col'>
                                 <p className='text-white text-[20px] pl-3' style={{ fontFamily: 'NeueMachina' }}>Mrudula Khedkar</p>
