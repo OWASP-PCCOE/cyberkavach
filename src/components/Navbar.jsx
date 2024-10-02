@@ -54,7 +54,7 @@ function Navbar() {
           <ul className='mt-4'  >
             <li className='py-2 opacity-50 text-2xl hover:opacity-90' style={{ fontFamily: 'NeueMachina' }}> <Link to="/" onClick={toggleSidebar}>Home</Link></li>
             <li className='py-2 text-2xl opacity-50 hover:opacity-90' style={{ fontFamily: 'NeueMachina' }}><Link to="/events" onClick={toggleSidebar}>Events</Link></li>
-            <li className='py-2 text-2xl opacity-50 hover:opacity-90' style={{ fontFamily: 'NeueMachina' }}><a href="#">Team</a></li>
+            <li className='py-2 text-2xl opacity-50 hover:opacity-90' style={{ fontFamily: 'NeueMachina' }}><Link to="/team" onClick={toggleSidebar}>Team</Link></li>
           </ul>
         </div>
       </div>

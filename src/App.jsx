@@ -54,6 +54,7 @@ import { BrowserRouter as Router, Route, Routes, useParams, Navigate } from 'rea
 import HomePage from './components/Homepage';
 import Event from './components/Event';
 import PreLoader from './components/PreLoader';
+import Team from './components/Team';
 
 
 function DynamicEvent() {
@@ -104,6 +105,7 @@ function App() {
       <div className='overflow-x-hidden'>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/team" element={<Team/>} />
           <Route path="/events/:eventId" element={<DynamicEvent />} />
           <Route path="/events" element={<Navigate to="/events/1" />} /> {/* Redirect to the first event */}
         </Routes>
