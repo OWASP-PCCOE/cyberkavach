@@ -105,9 +105,9 @@ function App() {
       <div className='overflow-x-hidden'>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/team" element={<Team/>} />
           <Route path="/events/:eventId" element={<DynamicEvent />} />
           <Route path="/events" element={<Navigate to="/events/1" />} /> {/* Redirect to the first event */}
+          <Route path="/team" element={<Team/>} />
         </Routes>
       </div>
     </Router>
