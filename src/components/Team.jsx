@@ -191,6 +191,53 @@ function Team() {
             </style>
 
             <div id='container' className='min-h-screen'>
+            <div id='Team' className='w-full flex flex-col justify-center items-center mt-2 mb-7'>
+                    <div className='pb-7 text-[40px] text-white ml-4 md:ml-5' style={{ fontFamily: 'NeueMachina' }}>
+                        <p><span className='text-green-400'>Team</span> </p>
+                    </div>
+                    <div className='flex flex-wrap justify-center'>
+                    <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
+                            <img src="team/hod-removebg-preview.png" className='h-[194px] w-[151px] mt-7 translate-x-2' alt="" />
+                            <div className='flex flex-col'>
+                                <p className='text-white text-[20px] pl-7' style={{ fontFamily: 'NeueMachina' }}>Dr. Sonali <span className='pl-7'>Patil</span></p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[61px]' style={{ fontFamily: 'NeueMachina' }}>HOD</p>
+                                <div className='flex justify-center items-center mt-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
+                            <img src="team/shailesh-sir-5.png" className='translate-y-5' alt="" />
+                            <div className='flex flex-col'>
+                                <p className='text-white text-[20px] pl-6' style={{ fontFamily: 'NeueMachina' }}>Mr. Shailesh Galande</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[13px]' style={{ fontFamily: 'NeueMachina' }}>Faculty Advisor</p>
+                                <div className='flex justify-center items-center mt-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+              <div id='lead' className='w-full flex flex-col justify-center items-center mt-2 mb-7 '>
+                    <div className='pb-7 text-[40px] text-white ml-4 md:ml-6' style={{ fontFamily: 'NeueMachina' }}>
+                        <p><span className='text-green-400 md:ml-1'>Lead</span> </p>
+                    </div>
+                    <div className='flex flex-wrap justify-center'>
+                    <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-10 ml-2'>
+                            <img src="team/Omkar-Photoroom (1).png" className='translate-x-1' alt="" />
+                            <div className='flex flex-col'>
+                                <p className='text-white text-[20px] pl-7' style={{ fontFamily: 'NeueMachina' }}>Omkar Pote</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[61px]' style={{ fontFamily: 'NeueMachina' }}>Lead</p>
+                                <div className='flex justify-center items-center mt-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div id='directors' className='w-full flex flex-col justify-center items-center'>
                     <div className='pb-7 text-[32px] text-white ml-4 md:ml-0' style={{ fontFamily: 'NeueMachina' }}>
                         <p>Meet Our <span className='text-green-400'>Directors</span></p>
