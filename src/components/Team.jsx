@@ -198,23 +198,23 @@ function Team() {
                     <div className='flex flex-wrap justify-center'>
                     <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/hod-removebg-preview.png" className='h-[194px] w-[151px] mt-7 translate-x-2' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-7' style={{ fontFamily: 'NeueMachina' }}>Dr. Sonali <span className='pl-7'>Patil</span></p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[61px]' style={{ fontFamily: 'NeueMachina' }}>HOD</p>
+                            <div className='flex flex-col justify-center items-center mt-4'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Dr. Sonali Patil</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>HOD</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/shailesh-sir-5.png" className='translate-y-5' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-6' style={{ fontFamily: 'NeueMachina' }}>Mr. Shailesh Galande</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[13px]' style={{ fontFamily: 'NeueMachina' }}>Faculty Advisor</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Mr. Shailesh<br/>Galande</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Faculty Advisor</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -227,12 +227,12 @@ function Team() {
                     <div className='flex flex-wrap justify-center'>
                     <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-10 ml-2'>
                             <img src="team/Omkar-Photoroom (1).png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-7' style={{ fontFamily: 'NeueMachina' }}>Omkar Pote</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[61px]' style={{ fontFamily: 'NeueMachina' }}>Lead</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Omkar Pote</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Lead</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -245,10 +245,10 @@ function Team() {
                     <div className='flex flex-wrap justify-center'>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green ml-[5px]'>
                             <img src="/team/Mrunal-removebg-preview (1).png" className='-translate-x-3 -translate-y-2' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-9' style={{ fontFamily: 'NeueMachina' }}>Mrunal Chopade</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[32px]' style={{ fontFamily: 'NeueMachina' }}>Management Director</p>
-                                <div className='flex justify-center items-center mt-1'>
+                            <div className='flex flex-col justify-center items-center mt-4'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Mrunal Chopade</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Management <br/>Director</p>
+                                <div className='flex justify-center items-center mt-2'>
                                     <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
@@ -256,34 +256,34 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Asmita-removebg-preview (1).png" alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-8' style={{ fontFamily: 'NeueMachina' }}>Asmita Mahamuni</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[30px]' style={{ fontFamily: 'NeueMachina' }}>Marketing Director</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Asmita <br/>Mahamuni</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Marketing <br/>Director</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-[5px] md:mt-0 mt-[17px]'>
                             <img src="team/Deep-removebg-preview (1).png" alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-4' style={{ fontFamily: 'NeueMachina' }}>Deep Dhakate</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[44px]' style={{ fontFamily: 'NeueMachina' }}>Security Director</p>
+                            <div className='flex flex-col justify-center items-center mt-4'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Deep Dhakate</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Security Director</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2 md:mt-0 mt-[17px]'>
                             <img src="team/Mrudula-removebg-preview (1).png" alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-9' style={{ fontFamily: 'NeueMachina' }}>Mrudula Khedkar</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[43px]' style={{ fontFamily: 'NeueMachina' }}>Content Director</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col items-center justify-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Mrudula <br/>Khedkar</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Content Director</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -296,10 +296,10 @@ function Team() {
                     <div className='flex flex-wrap justify-center'>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green ml-[5px]'>
                             <img src="/team/Shivam-removebg-preview (1).png" className='' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-8' style={{ fontFamily: 'NeueMachina' }}>Shivam Rai</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[30px]' style={{ fontFamily: 'NeueMachina' }}>Management Head</p>
-                                <div className='flex justify-center items-center mt-1'>
+                            <div className='flex flex-col justify-center items-center mt-3'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Shivam Rai</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Management Head</p>
+                                <div className='flex justify-center items-center mt-1 mb-2'>
                                     <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
@@ -307,12 +307,12 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Janhavi-removebg-preview (1).png" alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-3' style={{ fontFamily: 'NeueMachina' }}>Janhavi Pinjan</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[30px]' style={{ fontFamily: 'NeueMachina' }}>Management Head</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center mt-2'>
+                                <p className='text-white text-[20px]' style={{ fontFamily: 'NeueMachina' }}>Janhavi Pinjan</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Management Head</p>
+                                <div className='flex justify-center items-center mt-2 '>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -320,34 +320,34 @@ function Team() {
                     <div className='flex flex-wrap justify-center mt-7'>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Khush.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-5' style={{ fontFamily: 'NeueMachina' }}>Khush Paliwal</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[55px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Khush Paliwal</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Pranjal.png" alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-6' style={{ fontFamily: 'NeueMachina' }}>Pranjal Lipne</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[55px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Pranjal Lipne</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2 md:mt-0 mt-7'>
                             <img src="team/Prithviraj.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-5' style={{ fontFamily: 'NeueMachina' }}>Prithviraj Mule</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[55px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Prithviraj Mule</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -360,9 +360,9 @@ function Team() {
                     <div className='flex flex-wrap justify-center'>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green ml-[5px]'>
                             <img src="/team/Vishwanath-removebg-preview (1).png" className='' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-9' style={{ fontFamily: 'NeueMachina' }}>Vishwanath <span className='ml-4'>Uttarwar</span></p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[22px]' style={{ fontFamily: 'NeueMachina' }}>Marketing Head</p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Vishwanath<br/>Uttarwar</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Marketing Head</p>
                                 <div className='flex justify-center items-center mt-1'>
                                     <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -371,12 +371,12 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Zeeshan.png" alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-[51px]' style={{ fontFamily: 'NeueMachina' }}>Zeeshan <span className='ml-[-5px]'>Siddique</span></p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[20px]' style={{ fontFamily: 'NeueMachina' }}>Marketing Head</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Zeeshan<br/>Siddique</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Marketing Head</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -384,23 +384,23 @@ function Team() {
                     <div className='flex flex-wrap justify-center mt-7'>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-0 ml-2'>
                             <img src="team/Parth.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-2' style={{ fontFamily: 'NeueMachina' }}>Parth Kalpande</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[55px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                            <div className='flex flex-col justify-center items-center mt-4'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Parth Kalpande</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Vaishnavi.png" alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-10' style={{ fontFamily: 'NeueMachina' }}>Vaishnavi <span className='ml-4'>Bighot</span></p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[55px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Vaishnavi<br/>Bighot</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -413,9 +413,9 @@ function Team() {
                     <div className='flex flex-wrap justify-center'>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green ml-[5px]'>
                             <img src="/team/Nikhil-3.png" className='' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-10' style={{ fontFamily: 'NeueMachina' }}>Nikhil Pattewar </p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[27px]' style={{ fontFamily: 'NeueMachina' }}>Security Head</p>
+                            <div className='flex flex-col justify-center items-center mt-1'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Nikhil Pattewar </p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Security Head</p>
                                 <div className='flex justify-center items-center mt-1'>
                                     <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -424,12 +424,12 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Aryan-removebg-preview (1).png" alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-10' style={{ fontFamily: 'NeueMachina' }}>Aaryan Bhujang</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[27px]' style={{ fontFamily: 'NeueMachina' }}>Security Head</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Aaryan Bhujang</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Security Head</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -437,34 +437,34 @@ function Team() {
                     <div className='flex flex-wrap justify-center mt-7'>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-0 ml-2'>
                             <img src="team/Kanchan.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-[54px]' style={{ fontFamily: 'NeueMachina' }}>Kanchan <span className='ml-[-8px]'>Shendage</span></p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[55px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Kanchan<br/>Shendage</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-[34px] ml-2'>
                             <img src="team/Rudraksh.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-[49px]' style={{ fontFamily: 'NeueMachina' }}>Rudraksh Charhate</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[55px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Rudraksh<br/>Charhate</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2 mt-7 md:mt-0'>
                             <img src="team/Gargi.png" className='-translate-x-2' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-[52px]' style={{ fontFamily: 'NeueMachina' }}>Gargi <span className='ml-[-15px]'>Gogulwar</span></p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[47px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Gargi<br/>Gogulwar</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -478,12 +478,12 @@ function Team() {
                  <div className='flex flex-wrap justify-center'>
                     <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Billy-removebg-preview (1).png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-9' style={{ fontFamily: 'NeueMachina' }}>Prathmesh <span className='ml-5'>Mulay</span></p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[42px]' style={{ fontFamily: 'NeueMachina' }}>CTF Head</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px]' style={{ fontFamily: 'NeueMachina' }}>Prathmesh<br/>Mulay</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>CTF Head</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                     </div>
@@ -491,34 +491,34 @@ function Team() {
                     <div className='flex flex-wrap justify-center mt-7'>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Omkar.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-12' style={{ fontFamily: 'NeueMachina' }}>Omkar Kumbhar</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[50px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                            <div className='flex flex-col justify-center items-center mt-1'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Omkar Kumbhar</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Riya.png" alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-9' style={{ fontFamily: 'NeueMachina' }}>Riya Deshmukh</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[50px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px]' style={{ fontFamily: 'NeueMachina' }}>Riya Deshmukh</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2 md:mt-0 mt-7'>
                             <img src="team/Siddhika.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-10' style={{ fontFamily: 'NeueMachina' }}>Siddhika Aglave</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[48px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Siddhika<br/>Aglave</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -533,23 +533,23 @@ function Team() {
                     <div className='flex flex-wrap justify-center'>
                     <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Nishant-removebg-preview (1).png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-12' style={{ fontFamily: 'NeueMachina' }}>Nishant Bhakar</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[44px]' style={{ fontFamily: 'NeueMachina' }}>Treasurer</p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Nishant Bhakar</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Treasurer</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-14 ml-2'>
                             <img src="team/SumitPisal-removebg-preview (1).png" alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-7' style={{ fontFamily: 'NeueMachina' }}>Sumit Pisal</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[40px]' style={{ fontFamily: 'NeueMachina' }}>Web Head</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Sumit Pisal</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Web Head</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -563,23 +563,23 @@ function Team() {
                     <div className='flex flex-wrap justify-center'>
                     <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Roshan-removebg-preview (1).png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-6' style={{ fontFamily: 'NeueMachina' }}>Roshan Yadav</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[30px]' style={{ fontFamily: 'NeueMachina' }}>Content Head</p>
+                            <div className='flex flex-col justify-center items-center mt-3'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Roshan Yadav</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Content Head</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Sumit-removebg-preview (1).png" alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-6' style={{ fontFamily: 'NeueMachina' }}>Sumit Kumar <span className='ml-7'>Prasad</span></p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[30px]' style={{ fontFamily: 'NeueMachina' }}>Content Head</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Sumit Kumar <br/>Prasad</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Content Head</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -587,34 +587,34 @@ function Team() {
                     <div className='flex flex-wrap justify-center mt-7'>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Shivani.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-10' style={{ fontFamily: 'NeueMachina' }}>Shivanee <span className='ml-[-7px]'>Surajiwale</span></p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[48px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Shivanee <br/>Surajiwale</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Kartik.png" alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-4' style={{ fontFamily: 'NeueMachina' }}>Kartik Thakur</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[47px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                            <div className='flex flex-col justify-center items-center mt-3'>
+                                <p className='text-white text-[20px]' style={{ fontFamily: 'NeueMachina' }}>Kartik Thakur</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
                         <div className='h-auto w-[170px] rounded-[15px] neon-green md:ml-8 ml-2 md:mt-0 mt-7'>
                             <img src="team/Aabha.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col'>
-                                <p className='text-white text-[20px] pl-8' style={{ fontFamily: 'NeueMachina' }}>Aabha Chaudhari</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ml-[48px]' style={{ fontFamily: 'NeueMachina' }}>Member</p>
-                                <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[35px] w-[35px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                            <div className='flex flex-col justify-center items-center'>
+                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Aabha<br/>Chaudhari</p>
+                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                                <div className='flex justify-center items-center mt-2 mb-2'>
+                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
