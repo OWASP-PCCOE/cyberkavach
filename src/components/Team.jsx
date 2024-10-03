@@ -192,7 +192,7 @@ function Team() {
 
             <div id='container' className='min-h-screen'>
             <div id='Team' className='w-full flex flex-col justify-center items-center mt-2 mb-7'>
-                    <div className='pb-7 text-[40px] text-white ml-4 md:ml-5' style={{ fontFamily: 'NeueMachina' }}>
+                    <div className='pb-7 text-[40px] md:text-[47px] text-white ml-4 md:ml-5' style={{ fontFamily: 'NeueMachina' }}>
                         <p><span className='text-green-400'>Team</span> </p>
                     </div>
                     <div className='flex flex-wrap justify-center'>
@@ -221,7 +221,7 @@ function Team() {
                     </div>
               </div>
               <div id='lead' className='w-full flex flex-col justify-center items-center mt-2 mb-7 '>
-                    <div className='pb-7 text-[40px] text-white ml-4 md:ml-6' style={{ fontFamily: 'NeueMachina' }}>
+                    <div className='pb-7 text-[40px] md:text-[47px] text-white ml-4 md:ml-6' style={{ fontFamily: 'NeueMachina' }}>
                         <p><span className='text-green-400 md:ml-1'>Lead</span> </p>
                     </div>
                     <div className='flex flex-wrap justify-center'>
@@ -239,7 +239,7 @@ function Team() {
                     </div>
                 </div>
                 <div id='directors' className='w-full flex flex-col justify-center items-center'>
-                    <div className='pb-7 text-[32px] text-white ml-4 md:ml-0' style={{ fontFamily: 'NeueMachina' }}>
+                    <div className='pb-7 text-[32px] md:text-[47px] text-white ml-4 md:ml-0' style={{ fontFamily: 'NeueMachina' }}>
                         <p>Meet Our <span className='text-green-400'>Directors</span></p>
                     </div>
                     <div className='flex flex-wrap justify-center'>
@@ -290,7 +290,7 @@ function Team() {
                     </div>
                 </div>
                 <div id='management-team' className='w-full flex flex-col justify-center items-center mt-16'>
-                    <div className='pb-7 text-[35px] text-white ml-4 md:ml-0' style={{ fontFamily: 'NeueMachina' }}>
+                    <div className='pb-7 text-[35px] md:text-[47px] text-white ml-4 md:ml-0' style={{ fontFamily: 'NeueMachina' }}>
                         <p><span className='text-green-400'>Management</span> Team</p>
                     </div>
                     <div className='flex flex-wrap justify-center'>
@@ -354,7 +354,7 @@ function Team() {
                     </div>
                 </div>
                 <div id='marketing-team' className='w-full flex flex-col justify-center items-center mt-16'>
-                    <div className='pb-7 text-[35px] text-white ml-4 md:ml-0' style={{ fontFamily: 'NeueMachina' }}>
+                    <div className='pb-7 text-[35px] md:text-[47px] text-white ml-4 md:ml-0' style={{ fontFamily: 'NeueMachina' }}>
                         <p><span className='text-green-400'>Marketing</span> Team</p>
                     </div>
                     <div className='flex flex-wrap justify-center'>
@@ -407,7 +407,7 @@ function Team() {
                     </div>
                 </div>
                 <div id='security-team' className='w-full flex flex-col justify-center items-center mt-16'>
-                    <div className='pb-7 text-[35px] text-white ml-4 md:ml-0' style={{ fontFamily: 'NeueMachina' }}>
+                    <div className='pb-7 text-[35px] md:text-[47px] text-white ml-4 md:ml-0' style={{ fontFamily: 'NeueMachina' }}>
                         <p><span className='text-green-400'>Security</span> Team</p>
                     </div>
                     <div className='flex flex-wrap justify-center'>
@@ -472,7 +472,7 @@ function Team() {
                 </div>
                 
                 <div id='ctf-team' className='w-full flex flex-col justify-center items-center mt-16'>
-                    <div className='pb-7 text-[35px] text-white ml-4 md:ml-0' style={{ fontFamily: 'NeueMachina' }}>
+                    <div className='pb-7 text-[35px] md:text-[47px] text-white ml-4 md:ml-0' style={{ fontFamily: 'NeueMachina' }}>
                         <p><span className='text-green-400'>CTF</span> Team</p>
                     </div>
                  <div className='flex flex-wrap justify-center'>
@@ -526,7 +526,7 @@ function Team() {
                 </div>
 
                 <div id='treasurer-web' className='w-full flex flex-col justify-center items-center mt-16'>
-                    <div className='pb-7 text-[32px] text-white ml-4 md:ml-0 flex gap-[65px] md:gap-[245px]' style={{ fontFamily: 'NeueMachina' }}>
+                    <div className='pb-7 text-[32px] md:text-[47px] text-white ml-4 md:ml-0 flex gap-[65px] md:gap-[245px]' style={{ fontFamily: 'NeueMachina' }}>
                         <p className='text-green-400'>Treasurer </p>
                         <p className='pr-7 md:pr-0 text-green-400'>Web</p>
                     </div>
@@ -557,7 +557,7 @@ function Team() {
                 </div>
 
                 <div id='content-team' className='w-full flex flex-col justify-center items-center mt-16 mb-7'>
-                    <div className='pb-7 text-[35px] text-white ml-4 md:ml-0' style={{ fontFamily: 'NeueMachina' }}>
+                    <div className='pb-7 text-[35px] md:text-[47px] text-white ml-4 md:ml-0' style={{ fontFamily: 'NeueMachina' }}>
                         <p><span className='text-green-400'>Content</span> Team</p>
                     </div>
                     <div className='flex flex-wrap justify-center'>
