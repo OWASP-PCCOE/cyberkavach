@@ -794,6 +794,9 @@ function Homepage() {
       })
       .from("#six", {
         yPercent: -100,
+      })
+      .from("#seven", {
+        yPercent: 100,
       });
 
     ScrollTrigger.create({
@@ -818,7 +821,8 @@ function Homepage() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 2 }}
-      style={{ overflowY: 'scroll' }} // Ensure proper scroll handling
+      style={{ overflowY: 'scroll'}} // Ensure proper scroll handling
+      
     >
 
       {/* Background section */}
@@ -838,24 +842,26 @@ function Homepage() {
         style={{ backgroundColor: "#0C0C0C" }} // Ensure consistent background color
       >
         
-          <div style={{ fontFamily: "Gilroy" }} className='text-white  md:w-[450px] neon-green rounded-xl md:ml-[150px] md:mt-[210px] p-8 mt-[60px] m-6'>
-          <p className='md:text-3xl text-[20px] '>"Stay ahead in the game of cybersecurity! Check out the CyberKavach event timeline and mark your calendar for a month of action-packed learning and challenges!"</p> 
-            <div style={{ fontFamily: 'NeueMachina' }} className='text-white opacity-50 text-[18px] hover:opacity-90  align-baseline'>Scroll Down smoothly</div>
-        </div>
-       
-         
+        <div >
+            <div style={{ fontFamily: "Gilroy" }} className='text-white  md:w-[450px] neon-green rounded-xl md:ml-[150px] md:mt-[210px] p-8 mt-[60px] m-6'>
+              <p className='md:text-3xl text-[20px] '>"Stay ahead in the game of cybersecurity! Check out the CyberKavach event timeline and mark your calendar for a month of action-packed learning and challenges!"</p> 
+                <div style={{ fontFamily: 'NeueMachina' }} className='text-white opacity-50 text-[18px] hover:opacity-90  align-baseline'>Scroll Down smoothly</div>
+            </div>
+          
+            
 
-        {/* Responsive image settings for Safari */}
-        <img
-          className="md:hidden block absolute bottom-0 left-[50%] h-[350px] object-contain transform translate-x-[-50%] z-50 md:ml-[400px] md:h-[400px] md:w-[400px]"
-          src="./pixelcut-export.png"
-          alt="error"
-        />
-        <img
-          className="absolute bottom-0 left-[50%] h-[650px] object-contain transform hidden md:block z-50"
-          src="./pixelcut-export.png"
-          alt="error"
-        />
+            {/* Responsive image settings for Safari */}
+            <img
+              className="md:hidden block absolute bottom-0 left-[50%] h-[350px] object-contain transform translate-x-[-50%] z-50 md:ml-[400px] md:h-[400px] md:w-[400px]"
+              src="./pixelcut-export.png"
+              alt="error"
+            />
+            <img
+              className="absolute bottom-0 left-[50%] h-[650px] object-contain transform hidden md:block z-50"
+              src="./pixelcut-export.png"
+              alt="error"
+             />
+        </div>
 
         <style>
           {`
@@ -898,10 +904,11 @@ function Homepage() {
 
         <div
           id="one"
-          className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
+          className="absolute top-0 left-0 text-white text-5xl h-full w-screen bg-black"
+
         >
           <h1
-            className="md:text-[100px] text-[40px] md:pl-[94px] pl-[79px] mt-5 "
+            className="md:text-[100px] text-[37px] md:pl-[94px] mt-5 text-center md:text-left "
             style={{ fontFamily: "NeueMachina" }}
           >
             CYBER<span className="text-green-400">SAFE</span>
@@ -911,35 +918,35 @@ function Homepage() {
           <div
             className="md:mt-[50px] mt-[31px] p-8 rounded-2xl ml-4 mr-4 md:w-[500px] md:ml-[108px] neon-rose"
           >
-            <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
+            <p className="text-[23px] md:text-[27px]" style={{ fontFamily: "Gilroy" }}>
               "Think your device is secure? Let Cybersafe Checkpoint reveal the
               truth—protect your data before it's too late!"
             </p>
           </div>
-          <div className="flex flex-row md:mt-[40px] mt-[35px] md:w-[600px] md:pl-[37px] justify-evenly">
-            <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>09</span>-10-2024</h1>
-            <button onClick={() => handleEventClick(1)} > <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
+          <div className="flex flex-row md:mt-[26px] mt-[26px] md:w-[600px] md:pl-[37px] justify-evenly">
+            <p className='text-[37px]' style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>09</span>-10-2024</p>
+            <button onClick={() => handleEventClick(1)} > <img src="/pngwing.com.png" className='rounded-xl p-2 h-[34px] w-[36px] border-2  border-rose-300' alt="" /></button>
           </div>
         </div>
 
         <div
           id="two"
-          className="absolute top-0 left-0 text-white text-5xl bg-slate-950 h-full w-screen"
+          className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
         >
           <h1
-            className="md:text-[100px] text-[46px] pl-[96px] md:pl-[110px] mt-5 text-yellow-200 "
+            className="md:text-[100px] text-[39px]  md:pl-[110px] mt-5 text-yellow-200 text-center md:text-left "
             style={{ fontFamily: "NeueMachina" }}
           >
             FACULTY<br />SESSION
           </h1>
-          <div className="mt-[50px] md:mt-[80px] p-5 rounded-2xl ml-4 mr-4 neon-blue md:w-[500px] md:ml-[108px]">
+          <div className="mt-[37px] md:mt-[80px] p-5 rounded-2xl ml-4 mr-4 neon-blue md:w-[500px] md:ml-[108px]">
             <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
               "Empower Your Digital Defense: Join Us for an Exclusive Faculty Cybersecurity Session!"
             </p>
           </div>
-          <div className="flex flex-row mt-[40px] md:w-[600px] md:pl-[37px] justify-evenly">
-            <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>14</span>-10-2024</h1>
-            <button onClick={() => handleEventClick(2)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
+          <div className="flex flex-row mt-[26px] md:w-[600px] md:pl-[37px] justify-evenly">
+            <h1 className='text-[37px]' style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>14</span>-10-2024</h1>
+            <button onClick={() => handleEventClick(2)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[34px] w-[36px] border-2  border-rose-300' alt="" /></button>
           </div>
         </div>
 
@@ -948,44 +955,44 @@ function Homepage() {
           className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
         >
           <h1
-            className="md:text-[100px] text-[48px] md:pl-[101px] pl-[79px] mt-5 "
+            className="md:text-[100px] text-[48px] md:pl-[101px]  mt-5 text-center md:text-left "
             style={{ fontFamily: "NeueMachina" }}
           >
             MOCK <span className="text-orange-400">GRE</span>
           </h1>
           <div
-            className="mt-[68px] md:mt-[92px] p-8 rounded-2xl ml-4 mr-4 md:w-[500px] md:ml-[108px] neon-yellow"
+            className="mt-[44px] md:mt-[92px] p-8 rounded-2xl ml-4 mr-4 md:w-[500px] md:ml-[108px] neon-yellow"
           >
             <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
               "Crack the GRE Code: Test Your Skills and Step Closer to Your Dream University!"
             </p>
           </div>
-          <div className="flex flex-row mt-[40px] md:w-[600px] md:pl-[37px] justify-evenly">
-            <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>16</span>-10-2024</h1>
-            <button onClick={() => handleEventClick(3)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
+          <div className="flex flex-row mt-[26px] md:w-[600px] md:pl-[37px] justify-evenly">
+            <h1 className='text-[37px]' style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>16</span>-10-2024</h1>
+            <button onClick={() => handleEventClick(3)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[34px] w-[36px] border-2  border-rose-300' alt="" /></button>
           </div>
         </div>
 
         <div
           id="four"
-          className="absolute top-0 left-0 text-white text-5xl bg-slate-950 h-full w-screen"
+          className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
         >
           <h1
-            className="md:text-[100px] text-[46px] pl-[79px] mt-5 text-red-400"
+            className="md:text-[100px] text-[46px] mt-5  md:pl-[90px] text-red-400 text-center md:text-left"
             style={{ fontFamily: "NeueMachina" }}
           >
             ADRISHYAM
           </h1>
-          <div className="mt-[49px] md:mt-[80px] p-5 rounded-2xl ml-4  mr-4 neon-lime md:w-[500px] md:ml-[84px]">
-            <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
+          <div className="mt-[33px] md:mt-[80px] p-5 rounded-2xl ml-4  mr-4 neon-lime md:w-[500px] md:ml-[84px]">
+            <p className="text-[23px]" style={{ fontFamily: "Gilroy" }}>
               "Think you can escape the ordinary? Step into Adrishyam, where
               your wits are your only way out! Can you break free before time
               runs out?"
             </p>
           </div>
-          <div className="flex flex-row mt-[40px] md:w-[600px] md:pl-[11px] justify-evenly">
-            <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>18</span>-10-2024</h1>
-            <button onClick={() => handleEventClick(4)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
+          <div className="flex flex-row mt-[26px] md:w-[600px] md:pl-[11px] justify-evenly">
+            <h1 className='text-[37px]' style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>18</span>-10-2024</h1>
+            <button onClick={() => handleEventClick(4)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[34px] w-[36px] border-2  border-rose-300' alt="" /></button>
           </div>
         </div>
 
@@ -993,10 +1000,10 @@ function Homepage() {
 
         <div
           id="five"
-          className="absolute top-0 left-0 text-white text-5xl bg-slate-950 h-full w-screen"
+          className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
         >
           <h1
-            className="md:text-[100px] text-[46px] pl-[96px] mt-5 text-green-100"
+            className="md:text-[100px] text-[46px] mt-5 md:pl-[90px] text-green-100 text-center md:text-left"
             style={{ fontFamily: "NeueMachina" }}
           >
             MRIGAYA
@@ -1008,9 +1015,9 @@ function Homepage() {
               runs out?"
             </p>
           </div>
-          <div className="flex flex-row mt-[40px] md:w-[600px] md:pl-[37px] justify-evenly">
-            <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>21</span>-10-2024</h1>
-            <button onClick={() => handleEventClick(5)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
+          <div className="flex flex-row mt-[26px] md:w-[600px] md:pl-[37px] justify-evenly">
+            <h1 className='text-[37px]' style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>21</span>-10-2024</h1>
+            <button onClick={() => handleEventClick(5)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[34px] w-[36px] border-2  border-rose-300' alt="" /></button>
           </div>
         </div>
         <div
@@ -1018,19 +1025,39 @@ function Homepage() {
           className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
         >
           <h1
-            className="md:text-[100px] text-[46px] pl-[70px] mt-5 text-emerald-400"
+            className="md:text-[100px] text-[46px]  mt-5 md:pl-[90px] text-emerald-400 text-center md:text-left"
             style={{ fontFamily: "NeueMachina" }}
           >
-            QUEST-CON<br />
+            QUEST-CON
           </h1>
-          <div className="mt-[50px] md:mt-[80px] p-5 rounded-2xl ml-4 mr-4 neon-indigo   md:w-[500px] md:ml-[84px]">
+          <div className="mt-[50px] md:mt-[80px] p-5 rounded-2xl ml-4 mr-4 neon-indigo  md:w-[500px] md:ml-[84px]">
             <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
               "Embark on the Ultimate Cyber Challenge: Unravel Mysteries at QUEST-CON!"
             </p>
           </div>
-          <div className="flex flex-row mt-[40px] md:w-[600px] md:pl-[11px] justify-evenly">
-            <h1 style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>22</span>-10-2024</h1>
-            <button onClick={() => handleEventClick(6)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[40px] w-[40px] border-2 md:mt-2 border-rose-300' alt="" /></button>
+          <div className="flex flex-row mt-[26px] md:w-[600px] md:pl-[11px] justify-evenly">
+            <h1 className='text-[37px]' style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>22</span>-10-2024</h1>
+            <button onClick={() => handleEventClick(6)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[34px] w-[36px] border-2  border-rose-300' alt="" /></button>
+          </div>
+        </div>
+        <div
+          id="seven"
+          className="absolute top-0 left-0 text-white text-5xl bg-black h-full w-screen"
+        >
+          <h1
+            className="md:text-[100px] text-[40px] mt-5 md:pl-[90px] text-emerald-400 text-center md:text-left"
+            style={{ fontFamily: "NeueMachina" }}
+          >
+            WEB-DEV<br />SESSION
+          </h1>
+          <div className="mt-[37px] md:mt-[80px] p-5 rounded-2xl ml-4 mr-4 neon-indigo   md:w-[500px] md:ml-[84px]">
+            <p className="text-[25px]" style={{ fontFamily: "Gilroy" }}>
+              "Embark on the Ultimate Cyber Challenge: Unravel Mysteries at QUEST-CON!"
+            </p>
+          </div>
+          <div className="flex flex-row mt-[26px] md:w-[600px] md:pl-[11px] justify-evenly">
+            <h1 className='text-[37px]' style={{ fontFamily: "NeueMachina" }}><span className='text-green-500'>22</span>-10-2024</h1>
+            <button onClick={() => handleEventClick(6)}> <img src="/pngwing.com.png" className='rounded-xl p-2 h-[34px] w-[36px] border-2  border-rose-300' alt="" /></button>
           </div>
         </div>
       </div>
@@ -1043,13 +1070,13 @@ function Homepage() {
 
           <div className='flex mt-[32px] ml-[46px] p-5 neon-lime rounded-xl mr-[31px] md:w-[500px] md:items-center justify-center'>
             <img src="/wetnjoy.png" className='h-[120px] w-[127px] mt-4 ml-[8px] ' alt="error" />
-            <img src="/belgiumwaffle.png" className='h-[120px] w-[127px] mt-4 ml-[30px]' alt="error" />
+            <img src="/belgiumwaffle.png" className='h-[120px] w-[127px] mt-4 ml-[7px] md:ml-[63px]' alt="error" />
  
           </div>
 
           <div className='flex mt-[32px] ml-[46px] p-5 neon-lime rounded-xl mr-[31px] md:w-[500px] md:items-center justify-center'>
             <img src="/backbencherscafe.png" className='h-[120px] w-[127px] mt-4' alt="error" />
-            <img src="/attenction.png" className='h-[120px] w-[127px] mt-4 ml-[30px]' alt="error" />
+            <img src="/attenction.png" className='h-[120px] w-[127px] mt-4 ml-[12px] md:ml-[63px]' alt="error" />
           </div>
 
         </div>
