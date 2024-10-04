@@ -837,10 +837,13 @@ function Homepage() {
         className="relative overflow-hidden h-screen w-screen"
         style={{ backgroundColor: "#0C0C0C" }} // Ensure consistent background color
       >
-        <div style={{ fontFamily: "Gilroy" }} className='text-white md:text-3xl text-2xl md:w-[450px] neon-green rounded-xl md:ml-[150px] md:mt-[210px] p-8 mt-[60px] m-6'>
-          "Stay ahead in the game of cybersecurity! Check out the CyberKavach event timeline and mark your calendar for a month of action-packed learning and challenges!"
+        
+          <div style={{ fontFamily: "Gilroy" }} className='text-white  md:w-[450px] neon-green rounded-xl md:ml-[150px] md:mt-[210px] p-8 mt-[60px] m-6'>
+          <p className='md:text-3xl text-[20px] '>"Stay ahead in the game of cybersecurity! Check out the CyberKavach event timeline and mark your calendar for a month of action-packed learning and challenges!"</p> 
+            <div style={{ fontFamily: 'NeueMachina' }} className='text-white opacity-50 text-[18px] hover:opacity-90  align-baseline'>Scroll Down smoothly</div>
         </div>
-        <div style={{ fontFamily: 'NeueMachina' }} className='text-white opacity-50 text-[24px] hover:opacity-90 ml-[70px] md:ml-[200px]'>Scroll Down smoothly</div>
+       
+         
 
         {/* Responsive image settings for Safari */}
         <img
@@ -1035,16 +1038,16 @@ function Homepage() {
         <div className='text-white text-[47px] text-center' style={{ fontFamily: "NeueMachina" }}>Our <span className='text-green-400'>Esteemed</span> <br /> Sponsors</div>
         <div className='flex flex-col h-auto mt-[25px] items-center'>
 
-          <img src="/raaga.png" className='h-[120px] w-[127px] ml-[18px] md:ml-[6px] mt-4 p-2 neon-lime rounded-xl ' alt="error" />
+          <img src="/raaga.png" className='h-[120px] w-[127px] ml-[18px] md:ml-[6px] mt-4 p-5 neon-lime rounded-xl ' alt="error" />
 
 
-          <div className='flex mt-[32px] ml-[46px] p-2 neon-lime rounded-xl mr-[31px] md:w-[500px] md:items-center justify-center'>
+          <div className='flex mt-[32px] ml-[46px] p-5 neon-lime rounded-xl mr-[31px] md:w-[500px] md:items-center justify-center'>
             <img src="/wetnjoy.png" className='h-[120px] w-[127px] mt-4 ml-[8px] ' alt="error" />
-            <img src="/belgiumwaffle.png" className='h-[120px] w-[127px] mt-4 ml-[40px]' alt="error" />
-
+            <img src="/belgiumwaffle.png" className='h-[120px] w-[127px] mt-4 ml-[30px]' alt="error" />
+ 
           </div>
 
-          <div className='flex mt-[32px] ml-[46px] p-2 neon-lime rounded-xl mr-[31px] md:w-[500px] md:items-center justify-center'>
+          <div className='flex mt-[32px] ml-[46px] p-5 neon-lime rounded-xl mr-[31px] md:w-[500px] md:items-center justify-center'>
             <img src="/backbencherscafe.png" className='h-[120px] w-[127px] mt-4' alt="error" />
             <img src="/attenction.png" className='h-[120px] w-[127px] mt-4 ml-[30px]' alt="error" />
           </div>
