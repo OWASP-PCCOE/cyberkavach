@@ -571,7 +571,7 @@ function Event({ content, imageSrc, eventId, totalEvents }) {
 
       <div className="flex-grow flex flex-col items-center justify-evenly text-white h-[80vh] relative -translate-y-[40px] md:-translate-y-[5px]">
         {/* Image container with reduced size and negative Y translation */}
-        <div className="mt-4 md:-translate-y-[60px] -translate-y-[65px] rounded-xl neon-orange">
+        <div className="mt-4 md:-translate-y-[60px] -translate-y-[30px] rounded-xl neon-orange">
           <img
             className="h-[408px] w-[218px] md:h-[460px] md:w-[236px] rounded-xl object-scale-down"
             src={imageSrc} // Dynamically use the image source
@@ -585,15 +585,15 @@ function Event({ content, imageSrc, eventId, totalEvents }) {
             onClick={moveback}
             disabled={eventId === 1} // Disable if it's the first event
             style={{ fontFamily: 'Gilroy' }}
-            className="pl-8 pr-8 bg-slate-100 text-black rounded-xl text-[18px]"
+            className="pl-8 pr-8 bg-slate-300 text-black rounded-xl text-[18px]"
           >
             Move back
           </button>
           <button
             onClick={movenext}
             disabled={eventId === totalEvents} // Disable if it's the last event
-            style={{ fontFamily: 'Gilroy', backgroundColor: '#FFCC00' }}
-            className="p-3 pl-8 pr-8 text-black rounded-xl text-[18px] md:text-[30px]"
+            style={{ fontFamily: 'Gilroy'}}
+            className="p-3 pl-8 pr-8 bg-slate-100 text-black rounded-xl text-[18px] md:text-[30px]"
           >
             Amazing, Next
           </button>
