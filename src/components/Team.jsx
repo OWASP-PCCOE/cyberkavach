@@ -152,6 +152,7 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 function Team() {
 
@@ -621,7 +622,7 @@ function Team() {
                     </div>
                 </div>
             </div>
-
+             <Footer/>         
         </motion.div>
     )
 }
