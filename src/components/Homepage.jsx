@@ -1082,7 +1082,7 @@ function Homepage() {
 
         </div>
       </div>
-      {/* <Footer/>  */}
+      <Footer/> 
       
     </motion.div>
   );
