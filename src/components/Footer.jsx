@@ -16,12 +16,12 @@ function Footer() {
                             <li className='py-2 text-xl opacity-75 hover:opacity-90 hover:underline' style={{ fontFamily: 'NeueMachina' }}><Link to="/events">Events</Link></li>
                             <li className='py-2 text-xl opacity-75 hover:opacity-90 hover:underline' style={{ fontFamily: 'NeueMachina' }}><Link to="/team">Team</Link></li>
                         </div>
-                        {/* <div className='flex justify-evenly md:justify-normal mt-10 p-5 md:gap-12 md:ml-7'>
+                        <div className='flex justify-evenly md:justify-normal mt-10  md:gap-12 md:ml-7'>
                             <img src="/instagram.png" className='h-9 w-9' alt="" />
                             <img src="/linkedin.png" className='h-9 w-9' alt="" />
                             <img src="/youtube.png" className='h-9 w-9' alt="" />
                             <img src="/twitter-1.png" className='h-9 w-9' alt="" />
-                        </div> */}
+                        </div>
                     </div>
                     <div className='p-7 text-[16px] opacity-40  border-2 neon-green rounded-2xl mt-8'>
                         <p style={{fontFamily:'Gilroy'}}>OWASP is a student chapter focuses on cybersecurity offering a platform  to explore and learn about various aspects of cybersecurity.</p>
