@@ -1077,12 +1077,12 @@ function Homepage() {
 
           <div className='flex mt-[32px] ml-[46px] p-5 neon-lime rounded-xl mr-[31px] md:w-[500px] md:items-center justify-center'>
             <img src="/backbencherscafe.png" className='h-[120px] w-[127px] mt-4' alt="error" />
-            <img src="/attenction.png" className='h-[120px] w-[127px] mt-4 ml-[12px] md:ml-[63px]' alt="error" />
+            <img src="/attenction.png" className='h-[120px] w-[127px] mt-4 md:ml-[63px]' alt="error" />
           </div>
 
         </div>
       </div>
-      {/* <Footer/> */}
+      <Footer/> 
       
     </motion.div>
   );
