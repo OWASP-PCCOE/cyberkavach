@@ -833,7 +833,7 @@ function Homepage() {
 
         <div className='flex flex-col justify-center items-center'>
         <div><img src="./homepage-logo.jpeg" className=' md:w-[500px]  md:h-[500px]  z-50' alt="" /></div>
-        <div><img src="./cyber-font-7.png" className=' md:mt-[-35px] mt-[55px] sm:ml-[0]  md:ml-[37px] z-50' alt="" /></div>
+        <div><img src="./cyber-font-9.png" className=' md:mt-[-35px] mt-[55px]  z-50' alt="" /></div>
         </div>
         {/* md:-translate-y-[30px] */}
       </div>
@@ -899,10 +899,7 @@ function Homepage() {
              width: 300px;
              margin-left: 52px; /* Keep the same as your current value */
              }
-              .cyber-font-7 {
-              margin-left: 0px !important;
-              }
-            } 
+           } 
           `}
         </style>
 
