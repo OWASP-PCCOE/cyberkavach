@@ -9,7 +9,7 @@ function Footer() {
                 <div className='md:flex md:flex-row flex flex-col '>
                     <div className=' w-full md:w-[100%] '>
                         <div className='flex justify-center md:justify-normal'>
-                        {/* <img src="owasp_white.png" className='h-[92px] w-[147px] md:h-[100px] md:w-[200px] md:ml-[33px] md:mt-3' alt="" /> */}
+                        <img src="owasp_white.png" className='h-[92px] w-[147px] md:h-[100px] md:w-[200px] md:ml-[33px] md:mt-3' alt="" />
                         </div>
                         <div className='flex list-none md:gap-[30px] mt-7 md:mt-16 md:ml-[50px] md:justify-normal justify-evenly  items-center '>
                             <li className='py-2 opacity-75 text-xl hover:opacity-90 hover:underline' style={{ fontFamily: 'NeueMachina' }}> <Link to="/" >Home</Link></li>
