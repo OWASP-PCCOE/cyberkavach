@@ -9,12 +9,12 @@ function Footer() {
                 <div className='md:flex md:flex-row flex flex-col '>
                     <div className=' w-full md:w-[100%] '>
                         <div className='flex justify-center md:justify-normal'>
-                        <img src="owasp_white.png" className='h-[133px] w-[180px] md:h-[100px] md:w-[200px] md:ml-[33px] md:mt-3' alt="" />
+                        <img src="owasp_white.png" className='h-[92px] w-[147px] md:h-[100px] md:w-[200px] md:ml-[33px] md:mt-3' alt="" />
                         </div>
                         <div className='flex list-none md:gap-[30px] mt-7 md:mt-16 md:ml-[50px] md:justify-normal justify-evenly  items-center '>
-                            <li className='py-2 opacity-75 text-2xl hover:opacity-90 hover:underline' style={{ fontFamily: 'NeueMachina' }}> <Link to="/" >Home</Link></li>
-                            <li className='py-2 text-2xl opacity-75 hover:opacity-90 hover:underline' style={{ fontFamily: 'NeueMachina' }}><Link to="/events">Events</Link></li>
-                            <li className='py-2 text-2xl opacity-75 hover:opacity-90 hover:underline' style={{ fontFamily: 'NeueMachina' }}><Link to="/team">Team</Link></li>
+                            <li className='py-2 opacity-75 text-xl hover:opacity-90 hover:underline' style={{ fontFamily: 'NeueMachina' }}> <Link to="/" >Home</Link></li>
+                            <li className='py-2 text-xl opacity-75 hover:opacity-90 hover:underline' style={{ fontFamily: 'NeueMachina' }}><Link to="/events">Events</Link></li>
+                            <li className='py-2 text-xl opacity-75 hover:opacity-90 hover:underline' style={{ fontFamily: 'NeueMachina' }}><Link to="/team">Team</Link></li>
                         </div>
                         <div className='flex justify-evenly md:justify-normal mt-10 p-5 md:gap-12 md:ml-7'>
                             <img src="/instagram.png" className='h-9 w-9' alt="" />
