@@ -64,27 +64,35 @@ function DynamicEvent() {
   const eventData = [
     {
       content: "In computer science and operations research, approximation algorithms are efficient algorithms that find approximate solutions to optimization problems (in particular NP-hard problems) with provable guarantees on the distance of the returned solution to the optimal one.",
-      imageSrc: "/checkpoint.png"
+      imageSrc: "/events/start.png"
     },
     {
       content: "In computer science and operations research, approximation algorithms are efficient algorithms that find approximate solutions to optimization problems (in particular NP-hard problems) with provable guarantees on the distance of the returned solution to the optimal one.",
-      imageSrc: "/questcon.png"
+      imageSrc: "/events/checkpoint.png"
     },
     {
       content: "In computer science and operations research, approximation algorithms are efficient algorithms that find approximate solutions to optimization problems (in particular NP-hard problems) with provable guarantees on the distance of the returned solution to the optimal one.",
-      imageSrc: "/ctf_training.png"
+      imageSrc: "/events/mockgre.png"
     },
     {
       content: "In computer science and operations research, approximation algorithms are efficient algorithms that find approximate solutions to optimization problems (in particular NP-hard problems) with provable guarantees on the distance of the returned solution to the optimal one.",
-      imageSrc: "/8.png"
+      imageSrc: "/events/adrishyam.png"
     },
     {
       content: "Event 5: Almost there, it's the fifth event.",
-      imageSrc: "/event5.png"
+      imageSrc: "/events/mrigaya.png"
     },
     {
       content: "Event 6: The final event, thank you!",
-      imageSrc: "/questcon.png"
+      imageSrc: "/events/questcon.png"
+    },
+    {
+      content: "Event 7: The final event, thank you!",
+      imageSrc: "/events/offcampus.png"
+    },
+    {
+      content: "Event 8: The final event, thank you!",
+      imageSrc: "/events/valedictory.png"
     },
   ];
 

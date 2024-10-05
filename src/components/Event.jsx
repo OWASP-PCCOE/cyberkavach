@@ -573,7 +573,7 @@ function Event({ content, imageSrc, eventId, totalEvents }) {
         {/* Image container with reduced size and negative Y translation */}
         <div className="mt-4 md:-translate-y-[60px] -translate-y-[30px] rounded-xl neon-orange">
           <img
-            className="h-[408px] w-[218px] md:h-[460px] md:w-[236px] rounded-xl object-scale-down"
+            className="h-[430px] w-[300px] md:h-[471px] md:w-[333px] rounded-xl object-cover"
             src={imageSrc} // Dynamically use the image source
             alt={`Event ${eventId}`}
           />
