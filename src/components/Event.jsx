@@ -940,8 +940,8 @@ function Event({ content, imageSrc, eventId, totalEvents }) {
         {/* Register Button with opacity */}
         <div className="mt-4 rounded-xl" style={{ opacity: contentOpacity }}>
           <button
-            style={{ fontFamily: 'Gilroy', ...registerButtonStyle }}
-            className="p-3 rounded-xl pl-20 pr-20 text-white font-semibold md:text-[25px]"
+            style={{ fontFamily: 'Gilroy' }}
+            className="p-3 rounded-xl pl-20 pr-20 border-2 neon-slate border-white text-white font-semibold md:text-[25px]"
           >
             Register
           </button>

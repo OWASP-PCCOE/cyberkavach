@@ -7,7 +7,7 @@ function Footer() {
             <div className='bg-black h-auto w-screen  flex flex-col text-white'>
                 <hr className='opacity-50' />
                 <div className='md:flex md:flex-row flex flex-col '>
-                    <div className=' w-full md:w-[100%] '>
+                    <div className=' w-full md:w-[60%] '>
                         <div className='flex justify-center md:justify-normal'>
                         <img src="owasp_white.png" className='h-[92px] w-[147px] md:h-[100px] md:w-[200px] md:ml-[33px] md:mt-3' alt="" />
                         </div>
@@ -25,7 +25,18 @@ function Footer() {
                     </div>
                     <div className='p-7 text-[16px] opacity-40  border-2 neon-green rounded-2xl mt-8'>
                         <p style={{fontFamily:'Gilroy'}}>OWASP is a student chapter focuses on cybersecurity offering a platform  to explore and learn about various aspects of cybersecurity.</p>
-                        <p className='hidden md:block'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quaerat quos in, fuga itaque ad numquam maiores consequatur exercitationem qui vel quod sit minima dignissimos aliquid? Maiores corrupti aut reprehenderit, iste nostrum obcaecati animi! Suscipit, nesciunt quia. Ex neque itaque voluptatum veritatis voluptatibus, accusamus quia hic eos repellat. Laudantium dignissimos quia voluptates laboriosam, libero sit.</p>
+                        <div className='hidden md:block md:mt-4'>
+                            <div className='flex '>
+                                <img className='h-[25px] w-[25px]' src="/placeholder.png" alt="" />
+                                <p className='ml-4'>Sector 26 , Pradhikaran Nigdi (Near Akurdi Railway Station) , 411044</p>
+                            </div>
+                            <div>
+                                <h3 style={{fontFamily:'Neumachina'}} className='mt-4'>CYBERKAVACH</h3>
+                            </div>
+                            <div>
+                                <p style={{fontFamily:'Gilroy'}} className='mt-4'>CyberKavach is a month-long cybersecurity event designed to promote awareness and skill-building in the field of cybersecurity. It features action-packed learning sessions, challenges, and competitions aimed at helping participants strengthen their knowledge and defenses against cyber threats.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className='flex justify-center items-center'>
