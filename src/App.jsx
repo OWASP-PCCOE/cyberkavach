@@ -34,7 +34,7 @@
 //   const content = state ? state.content : 'No content available';
 //   return <Event content={content} />;
 // }
- 
+
 // function App() {
 //   return (
 //     <Router>
@@ -63,15 +63,15 @@ function DynamicEvent() {
   // Event data containing content and image URLs
   const eventData = [
     {
-      content: "In computer science and operations research, approximation algorithms are efficient algorithms that find approximate solutions to optimization problems (in particular NP-hard problems) with provable guarantees on the distance of the returned solution to the optimal one.",
+      content: "We are thrilled to kick off the CyberKavach event, a month-long journey into the world of cybersecurity! This event is designed to empower participants with the knowledge and skills needed to safeguard their digital presence. Whether you're a seasoned tech enthusiast or just starting out, CyberKavach offers engaging activities, workshops, and challenges that will test and enhance your cyber defense strategies.",
       imageSrc: "/events/start.png"
     },
     {
-      content: "In computer science and operations research, approximation algorithms are efficient algorithms that find approximate solutions to optimization problems (in particular NP-hard problems) with provable guarantees on the distance of the returned solution to the optimal one.",
+      content: "Cybersafe Checkpoint is an essential cybersecurity initiative aimed at safeguarding your digital devices. Hosted on the PCCOE campus, this event allows participants to bring their laptops, smartphones, and other devices for a comprehensive vulnerability assessment. Our team will use advanced tools and techniques to identify potential security flaws, ensuring your devices are secure from cyber threats.",
       imageSrc: "/events/checkpoint.png"
     },
     {
-      content: "In computer science and operations research, approximation algorithms are efficient algorithms that find approximate solutions to optimization problems (in particular NP-hard problems) with provable guarantees on the distance of the returned solution to the optimal one.",
+      content: "Prepare for your next step in higher education with our Mock GRE event! This event features an informative session about the GRE exam, offering insights into its structure, scoring, and strategies for success. Following the session, participants will have the chance to take a free mock GRE test, simulating real exam conditions.",
       imageSrc: "/events/mockgre.png"
     },
     {
@@ -87,11 +87,15 @@ function DynamicEvent() {
       imageSrc: "/events/questcon.png"
     },
     {
-      content: "Event 7: The final event, thank you!",
+      content: "Step into the world of secure coding and web development at our Dev Defence event! This engaging session is designed for developers, aspiring coders, and anyone interested in the intersection of web development and cybersecurity.",
+      imageSrc: "/events/devdefence.png"
+    },
+    {
+      content: " Off-Campus Cybersecurity Awareness Session, designed to equip you with the essential knowledge and skills to navigate the digital landscape safely. This interactive session will cover a range of topics, including the latest cybersecurity threats, best practices for protecting personal information, and strategies to enhance your online security.",
       imageSrc: "/events/offcampus.png"
     },
     {
-      content: "Event 8: The final event, thank you!",
+      content: "Join us for the grand finale of the CyberKavach event as we celebrate the achievements, insights, and camaraderie built throughout this exciting month! The valedictory session will highlight the incredible journey participants undertook to enhance their cybersecurity skills and awareness.During this session, we will share key takeaways from various activities, recognize outstanding participants, and reflect on the importance of cybersecurity in today’s digital landscape.",
       imageSrc: "/events/valedictory.png"
     },
   ];
@@ -109,13 +113,13 @@ function DynamicEvent() {
 function App() {
   return (
     <Router>
-      <PreLoader/>
+      <PreLoader />
       <div className='overflow-x-hidden'>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/events/:eventId" element={<DynamicEvent />} />
           <Route path="/events" element={<Navigate to="/events/1" />} /> {/* Redirect to the first event */}
-          <Route path="/team" element={<Team/>} />
+          <Route path="/team" element={<Team />} />
         </Routes>
       </div>
     </Router>
