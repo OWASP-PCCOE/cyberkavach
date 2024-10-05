@@ -153,8 +153,13 @@ import { motion } from 'framer-motion'
 import React from 'react'
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 function Team() {
+
+    const moveLink = (linkSocial) => {
+        window.open(linkSocial, '_blank'); 
+    }
 
     const backgroundStyle = {
         backgroundImage: `url('/bg-owasp.svg')`,
@@ -538,7 +543,7 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Nishant Bhakar</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Treasurer</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink()} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
@@ -549,8 +554,8 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Sumit Pisal</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Web Head</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p onClick={() => moveLink('https://www.linkedin.com/in/sumit-pisal-02b51a259')}><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p onClick={() => moveLink('https://github.com/SumitPisal')}><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>

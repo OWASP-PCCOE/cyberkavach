@@ -808,7 +808,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Navbar from './Navbar';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 function Event({ content, imageSrc, eventId, totalEvents }) {
@@ -827,12 +827,6 @@ function Event({ content, imageSrc, eventId, totalEvents }) {
     height: 'auto',
   };
 
-  const registerButtonStyle = {
-    backgroundImage: `url(/button-img.webp)`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-  };
 
   // Toggle visibility of the paragraph
   const handleToggle = () => {
@@ -908,7 +902,7 @@ function Event({ content, imageSrc, eventId, totalEvents }) {
       {/* Main Content Container with opacity */}
       <div className="flex-grow flex flex-col items-center justify-evenly text-white h-[80vh] relative -translate-y-[40px] md:-translate-y-[5px]">
         {/* Image container with reduced size and negative Y translation */}
-        <div className="mt-4 md:-translate-y-[60px] -translate-y-[30px] rounded-xl neon-orange">
+        <div className="mt-4 md:-translate-y-[60px] -translate-y-[20px] rounded-xl neon-orange">
           <img
             className="h-[430px] w-[300px] md:h-[471px] md:w-[333px] rounded-xl object-cover"
             src={imageSrc} // Dynamically use the image source
