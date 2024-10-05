@@ -23,10 +23,10 @@ function Footer() {
                             <img src="/twitter-1.png" className='h-9 w-9' alt="" />
                         </div> */}
                     </div>
-                    {/* <div className='p-7 text-[16px] opacity-40  border-2 neon-green rounded-2xl mt-8'>
+                    <div className='p-7 text-[16px] opacity-40  border-2 neon-green rounded-2xl mt-8'>
                         <p style={{fontFamily:'Gilroy'}}>OWASP is a student chapter focuses on cybersecurity offering a platform  to explore and learn about various aspects of cybersecurity.</p>
                         <p className='hidden md:block'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quaerat quos in, fuga itaque ad numquam maiores consequatur exercitationem qui vel quod sit minima dignissimos aliquid? Maiores corrupti aut reprehenderit, iste nostrum obcaecati animi! Suscipit, nesciunt quia. Ex neque itaque voluptatum veritatis voluptatibus, accusamus quia hic eos repellat. Laudantium dignissimos quia voluptates laboriosam, libero sit.</p>
-                    </div> */}
+                    </div>
                 </div>
                 <div className='flex justify-center items-center'>
                     <img src="./cyber-font-7.png" className=' md:mt-[-35px]  md:ml-[37px] z-50' alt="" />
