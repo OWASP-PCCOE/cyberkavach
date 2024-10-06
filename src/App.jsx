@@ -61,7 +61,6 @@ import Timeline from './components/Timeline';
 function DynamicEvent() {
   const { eventId } = useParams();
 
-  // Event data containing content and image URLs
   const eventData = [
     {
       content: "We are thrilled to kick off the CyberKavach event, a month-long journey into the world of cybersecurity! This event is designed to empower participants with the knowledge and skills needed to safeguard their digital presence. Whether you're a seasoned tech enthusiast or just starting out, CyberKavach offers engaging activities, workshops, and challenges that will test and enhance your cyber defense strategies.",
@@ -101,6 +100,7 @@ function DynamicEvent() {
     },
   ];
 
+
   // Ensure eventId is a valid number and within range
   const currentEvent = eventData[parseInt(eventId) - 1] || null;
 
@@ -109,6 +109,7 @@ function DynamicEvent() {
   }
 
   return <Event content={currentEvent.content} imageSrc={currentEvent.imageSrc} eventId={parseInt(eventId)} totalEvents={eventData.length} />;
+
 }
 
 function App() {
