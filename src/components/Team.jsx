@@ -208,7 +208,7 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Dr. Sonali Patil</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>HOD</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/dr-sonali-d-patil-9413681b/?originalSubdomain=in')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
@@ -219,7 +219,7 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Mr. Shailesh<br/>Galande</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Faculty Advisor</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/shailesh-galande-0567183b/?originalSubdomain=in')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
@@ -237,7 +237,7 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Omkar Pote</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Lead</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/omkar-pote-02a10822a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
@@ -255,7 +255,7 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Mrunal Chopade</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Management <br/>Director</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/mrunal-chopade-730a77259/?originalSubdomain=in')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
@@ -266,7 +266,7 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Asmita <br/>Mahamuni</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Marketing <br/>Director</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/asmita-mahamuni-076186287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
@@ -277,7 +277,7 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Deep Dhakate</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Security Director</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/deepdhakate/?originalSubdomain=in')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
@@ -288,7 +288,7 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Mrudula <br/>Khedkar</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Content Director</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/mrudula-khedkar-388a35259/?originalSubdomain=in')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
@@ -306,8 +306,8 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Shivam Rai</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Management Head</p>
                                 <div className='flex justify-center items-center mt-1 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/shivam-rai-b74819259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/Nyxoy77')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -317,8 +317,8 @@ function Team() {
                                 <p className='text-white text-[20px]' style={{ fontFamily: 'NeueMachina' }}>Janhavi Pinjan</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Management Head</p>
                                 <div className='flex justify-center items-center mt-2 '>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/janhavi-pinjan-909190258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/janhavi0007')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -330,8 +330,8 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Khush Paliwal</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/khush-paliwal-83920b307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/Khush044')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -341,8 +341,8 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Pranjal Lipne</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/pranjal-lipne-318655330?trk=contact-info')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/pranjallipne17')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -352,7 +352,7 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Prithviraj Mule</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/pruthviraj-mule-855772292/?originalSubdomain=in')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
@@ -370,7 +370,7 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Vishwanath<br/>Uttarwar</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Marketing Head</p>
                                 <div className='flex justify-center items-center mt-1'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('http://www.linkedin.com/in/vishwanath-uttarwar-97a66b259')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
@@ -381,8 +381,8 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Zeeshan<br/>Siddique</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Marketing Head</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/zeeshan-siddique-a1557a250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/Zeeshan19s')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -394,7 +394,7 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Parth Kalpande</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/parth-kalpande-aa4684297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
@@ -405,8 +405,8 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Vaishnavi<br/>Bighot</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/vaishnavi-bighot-797597322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/VaishnaviBighot')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -423,8 +423,8 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Nikhil Pattewar </p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Security Head</p>
                                 <div className='flex justify-center items-center mt-1'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/nikhilpattewar')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/PATTEWARNIKHIL')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -434,7 +434,7 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Aaryan Bhujang</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Security Head</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/aaryan-bhujang-437765282/')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
@@ -458,8 +458,8 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Rudraksh<br/>Charhate</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('http://www.linkedin.com/in/rudraksh-charhate-972110289')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/iamRUDRAKSH')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -469,8 +469,8 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Gargi<br/>Gogulwar</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BGXjwA8%2FWTw6WUfjIRsUPtw%3D%3D')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/GargiGogulwar')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -488,8 +488,8 @@ function Team() {
                                 <p className='text-white text-[20px]' style={{ fontFamily: 'NeueMachina' }}>Prathmesh<br/>Mulay</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>CTF Head</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/prathmesh-mulay-205142301/?originalSubdomain=in')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/tevil344')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                     </div>
@@ -501,8 +501,8 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Omkar Kumbhar</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/omkar-kumbhar365/')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/omkark03')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -512,8 +512,8 @@ function Team() {
                                 <p className='text-white text-[20px]' style={{ fontFamily: 'NeueMachina' }}>Riya Deshmukh</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/riya-deshmukh-333r/')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/RiyaDeshmukh3')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -523,8 +523,8 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Siddhika<br/>Aglave</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/siddhika-aglave-2b3596292/')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/siddhikaglave')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -573,7 +573,7 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Roshan Yadav</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Content Head</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/roshan-yadav-2a2596259/?originalSubdomain=in')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
@@ -597,8 +597,8 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Shivanee <br/>Surajiwale</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('http://www.linkedin.com/in/shivaneesurajiwale')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/shivaneesurajiwale')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -608,8 +608,8 @@ function Team() {
                                 <p className='text-white text-[20px]' style={{ fontFamily: 'NeueMachina' }}>Kartik Thakur</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/kartikthakur2004?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/kartikt2004')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>
@@ -619,8 +619,8 @@ function Team() {
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Aabha<br/>Chaudhari</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
-                                    <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
-                                    <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
+                                    <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/aabha-chaudhari-21245b278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
+                                    <p><img src="/github.png" onClick={() => moveLink('https://github.com/aabhachaudhari')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
                                 </div>
                             </div>
                         </div>

@@ -99,9 +99,9 @@ function Timeline() {
 
                 {/* Timeline Event 1 */}
                 <div><img src="./cyber-font-9.png" className='md:mt-[-45px]  z-50' alt="" /></div>
-                <div className=' shadow-2xl shadow-blue-500 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% h-auto md:w-[500px] w-[350px] rounded-xl text-white border-2 flex flex-col items-center border-white'>
+                <div className=' shadow-2xl shadow-blue-500 bg-gradient-to-r from-slate-900 from-10% via-slate-600 via-30% to-slate-900 to-90% h-auto md:w-[500px] w-[350px] rounded-xl text-white border-2 flex flex-col items-center border-white'>
                     <p className='bg-white text-3xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>08 October</p>
-                    <p className='md:text-5xl text-4xl  opacity-75 mt-12 mb-5 text-black font-bold' style={{ fontFamily: 'Gilroy' }}>INAUGURATION</p>
+                    <p className='md:text-5xl text-4xl   mt-12 mb-5 text-rose-100 font-bold' style={{ fontFamily: 'Gilroy' }}>INAUGURATION</p>
                 </div>
 
                 {/* Line connecting the events */}
