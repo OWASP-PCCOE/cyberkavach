@@ -63,40 +63,49 @@ function DynamicEvent() {
 
   const eventData = [
     {
-      content: "We are thrilled to kick off the CyberKavach event, a month-long journey into the world of cybersecurity! This event is designed to empower participants with the knowledge and skills needed to safeguard their digital presence. Whether you're a seasoned tech enthusiast or just starting out, CyberKavach offers engaging activities, workshops, and challenges that will test and enhance your cyber defense strategies.",
-      imageSrc: "/events/start.png"
+      content: ["We are thrilled to kick off the CyberKavach event, a month-long journey into the world of cybersecurity! This event is designed to empower participants with the knowledge and skills needed to safeguard their digital presence. Whether you're a seasoned tech enthusiast or just starting out, CyberKavach offers engaging activities, workshops, and challenges that will test and enhance your cyber defense strategies."],
+      imageSrc: "/events/start.png",
+      gFormLink : " "
     },
     {
-      content: "Cybersafe Checkpoint is an essential cybersecurity initiative aimed at safeguarding your digital devices. Hosted on the PCCOE campus, this event allows participants to bring their laptops, smartphones, and other devices for a comprehensive vulnerability assessment. Our team will use advanced tools and techniques to identify potential security flaws, ensuring your devices are secure from cyber threats.",
-      imageSrc: "/events/checkpoint.png"
+      content: ["Cybersafe Checkpoint is an essential cybersecurity initiative aimed at safeguarding your digital devices. Hosted on the PCCOE campus, this event allows participants to bring their laptops, smartphones, and other devices for a comprehensive vulnerability assessment. Our team will use advanced tools and techniques to identify potential security flaws, ensuring your devices are secure from cyber threats."],
+      imageSrc: "/events/checkpoint.png",
+      gFormLink : "https://docs.google.com/forms/d/e/1FAIpQLSfYYIORfRtNTIXiz8x5pc0W5I_ha_9putuDECdRVy0VV3pq4w/viewform?usp=sf_link"
     },
     {
-      content: "Prepare for your next step in higher education with our Mock GRE event! This event features an informative session about the GRE exam, offering insights into its structure, scoring, and strategies for success. Following the session, participants will have the chance to take a free mock GRE test, simulating real exam conditions.",
-      imageSrc: "/events/mockgre.png"
+      content: ["Participate in an offline Mock GRE Test with sections on Quantitative Reasoning, Verbal Reasoning, and Analytical Writing , This is an individual event, and all necessary materials will be provided at the venue. Cheating is strictly prohibited, and violators will be disqualified. Use of external resources is not allowed.The event coordinator's decision will be final. register now."],
+      imageSrc: "/events/mockgre.png",
+      gFormLink : "https://docs.google.com/forms/d/e/1FAIpQLSf4F0BkEK-3PYG5ViCQtg6sSxJZQQLevANWQVPdZBjJK-PhXA/viewform?usp=sf_link"
     },
     {
-      content: "In computer science and operations research, approximation algorithms are efficient algorithms that find approximate solutions to optimization problems (in particular NP-hard problems) with provable guarantees on the distance of the returned solution to the optimal one.",
-      imageSrc: "/events/adrishyam.png"
+      content: ["Adrishyam is an engaging mythological-themed escape room event where participants will solve puzzles and answer questions based on mythology. The goal is to navigate through the room by solving these challenges and escape within the given time, using their knowledge of mythological stories and figures to progress through each stage."],
+      imageSrc: "/events/adrishyam.png",
+      gFormLink : "https://docs.google.com/forms/d/e/1FAIpQLScfE9BWNgX6dDgG5Q2mBvp4Gw9QQ0DRu8DotQGWFI3aDUMRIw/viewform?usp=sf_link"
     },
     {
-      content: "Event 5: Almost there, it's the fifth event.",
-      imageSrc: "/events/mrigaya.png"
+      content: ["Round 1: The Linux Maze - Navigate through Linux directories using terminal commands,Follow the clues from one directory to the next. Maximum of 3 heroes (participants) per team. ","Round 2: Unlock the Secrets-Use clues to unlock PCs and find your way to the next round.Each team gets one PC and internet access. "," Round 3: Solve the Puzzle -Solve tricky questions using a special image provided to you.The event coordinator’s decision is final."],
+      imageSrc: "/events/mrigaya.png",
+      gFormLink : "https://docs.google.com/forms/d/e/1FAIpQLSdaxS-k31hwUziEByRtv46tdmJtIG9lyEivBM2cTGavYMZ05g/viewform?usp=sf_link"
     },
     {
-      content: "Event 6: The final event, thank you!",
-      imageSrc: "/events/questcon.png"
+      content: ["RULES","1. No Unauthorized Attacks : Focus only on the challenges. Attacking other participants or the competition infrastructure will result in immediate disqualification.","2. Collaboration : Collaboration is allowed only within registered teams. Sharing answers or hints with other teams or participants is strictly prohibited.","3. Tools Allowed : You can use any open-source or self-made tools, but no pre-configured automated solutions. Your skills should shine, not your tools.","4. Flag Submission : Submit the flags for each challenge in the provided format. Any tampering with the submission system will lead to disqualification."],
+      imageSrc: "/events/questcon.png",
+      gFormLink : "https://docs.google.com/forms/d/e/1FAIpQLSe2vMmu-Dv-fwTi3trGyrepte9Nv-w_skY0oyEerckbWqj2Xw/viewform?usp=sf_link"
     },
     {
-      content: "Step into the world of secure coding and web development at our Dev Defence event! This engaging session is designed for developers, aspiring coders, and anyone interested in the intersection of web development and cybersecurity.",
-      imageSrc: "/events/devdefence.png"
+      content: ["Get ready to be inspired! In this exciting session, a web development expert will share insights on how to create stunning websites using HTML, CSS, and JavaScript!.","Learn the Basics: Discover how to structure your web page","Add Style: Understand how to make your sites visually appealing.","Make It Interactive: Find out how to use JavaScript to enhance user experience","Responsive Design: Learn the importance of creating websites that look great on any device!"],
+      imageSrc: "/events/devdefence.png",
+      gFormLink : "https://docs.google.com/forms/d/e/1FAIpQLScLq-JZ0UGmfjT1WIGGXgYNXZaqha-2wimJe-nYUjt9xrzsng/viewform?usp=sf_link"
     },
     {
-      content: " Off-Campus Cybersecurity Awareness Session, designed to equip you with the essential knowledge and skills to navigate the digital landscape safely. This interactive session will cover a range of topics, including the latest cybersecurity threats, best practices for protecting personal information, and strategies to enhance your online security.",
-      imageSrc: "/events/offcampus.png"
+      content: [" Off-Campus Cybersecurity Awareness Session, designed to equip you with the essential knowledge and skills to navigate the digital landscape safely. This interactive session will cover a range of topics, including the latest cybersecurity threats, best practices for protecting personal information."],
+      imageSrc: "/events/offcampus.png",
+      gFormLink : " "
     },
     {
-      content: "Join us for the grand finale of the CyberKavach event as we celebrate the achievements, insights, and camaraderie built throughout this exciting month! The valedictory session will highlight the incredible journey participants undertook to enhance their cybersecurity skills and awareness.During this session, we will share key takeaways from various activities, recognize outstanding participants, and reflect on the importance of cybersecurity in today’s digital landscape.",
-      imageSrc: "/events/valedictory.png"
+      content: ["Join us for the grand finale of the CyberKavach event as we celebrate the achievements, insights, and camaraderie built throughout this exciting month! The valedictory session will highlight the incredible journey participants undertook to enhance their cybersecurity skills and awareness.During this session, we will share key takeaways from various activities, recognize outstanding participants, and reflect on the importance of cybersecurity in today’s digital landscape."],
+      imageSrc: "/events/valedictory.png",
+      gFormLink : " "
     },
   ];
 
@@ -108,7 +117,7 @@ function DynamicEvent() {
     return <Navigate to="/events/1" />; // Redirect to the first event if the ID is invalid
   }
 
-  return <Event content={currentEvent.content} imageSrc={currentEvent.imageSrc} eventId={parseInt(eventId)} totalEvents={eventData.length} />;
+  return <Event  gFormLink={currentEvent.gFormLink} content={currentEvent.content} imageSrc={currentEvent.imageSrc} eventId={parseInt(eventId)} totalEvents={eventData.length} />;
 
 }
 
