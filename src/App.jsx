@@ -55,6 +55,7 @@ import HomePage from './components/Homepage';
 import Event from './components/Event';
 import PreLoader from './components/PreLoader';
 import Team from './components/Team';
+import Timeline from './components/Timeline';
 
 
 function DynamicEvent() {
@@ -120,6 +121,7 @@ function App() {
           <Route path="/events/:eventId" element={<DynamicEvent />} />
           <Route path="/events" element={<Navigate to="/events/1" />} /> {/* Redirect to the first event */}
           <Route path="/team" element={<Team />} />
+          <Route path="/timeline" element={<Timeline/>} />
         </Routes>
       </div>
     </Router>
