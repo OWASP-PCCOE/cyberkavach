@@ -97,7 +97,7 @@ function Event({ content, imageSrc, eventId, totalEvents, gFormLink }) {
       </style>
 
       {/* Main Content Container with opacity */}
-      <div className="flex-grow flex flex-col items-center justify-evenly text-white h-auto relative -translate-y-[40px] md:-translate-y-[5px]">
+      <div className="flex-grow flex flex-col items-center md:justify-evenly justify-start text-white h-auto relative -translate-y-[40px] md:-translate-y-[5px]">
         {/* Image container with reduced size and negative Y translation */}
         <div className="mt-4 md:-translate-y-[60px] -translate-y-[20px] rounded-xl neon-orange">
           <img
@@ -149,7 +149,7 @@ function Event({ content, imageSrc, eventId, totalEvents, gFormLink }) {
         {/* Sliding paragraph with transition */}
         <div id='slider'
           ref={contentRef} // Attach the reference to the sliding content
-          className={`absolute bottom-[120px] md:bottom-[50px] transition-all duration-500 ease-out bg-gray-800 rounded-lg text-center p-4 z-10 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full'
+          className={`absolute bottom-[222px] md:bottom-[50px] transition-all duration-500 ease-out bg-gray-800 rounded-lg text-center p-4 z-10 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full'
             }`}
           style={{ width: 'calc(100% - 40px)', maxWidth: '400px', opacity: isVisible ? 1 : 0 }} // Set full opacity for the slider when visible
         >
