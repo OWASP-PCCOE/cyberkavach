@@ -19,8 +19,10 @@ function Event({ content, imageSrc, eventId, totalEvents, gFormLink }) {
     height: 'auto',
   };
 
-  const gForm  = (gLink) => {
-    window.open(gLink, '_blank'); 
+   const gForm  = (gLink) => {
+        if(gLink) {
+          window.open(gLink, '_blank');
+        }  
   }
 
   // Toggle visibility of the paragraph
