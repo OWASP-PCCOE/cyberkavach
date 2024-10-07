@@ -39,7 +39,7 @@ function DynamicEvent() {
     {
       content: ["RULES","1. No Unauthorized Attacks : Focus only on the challenges. Attacking other participants or the competition infrastructure will result in immediate disqualification.","2. Collaboration : Collaboration is allowed only within registered teams. Sharing answers or hints with other teams or participants is strictly prohibited.","3. Tools Allowed : You can use any open-source or self-made tools, but no pre-configured automated solutions. Your skills should shine, not your tools.","4. Flag Submission : Submit the flags for each challenge in the provided format. Any tampering with the submission system will lead to disqualification."],
       imageSrc: "/events/questcon.png",
-      gFormLink : "https://docs.google.com/forms/d/e/1FAIpQLSe2vMmu-Dv-fwTi3trGyrepte9Nv-w_skY0oyEerckbWqj2Xw/viewform?usp=sf_link"
+      gFormLink : "https://questcon.ctfd.io/"
     },
     {
       content: ["Get ready to be inspired! In this exciting session, a web development expert will share insights on how to create stunning websites using HTML, CSS, and JavaScript!.","Learn the Basics: Discover how to structure your web page","Add Style: Understand how to make your sites visually appealing.","Make It Interactive: Find out how to use JavaScript to enhance user experience","Responsive Design: Learn the importance of creating websites that look great on any device!"],

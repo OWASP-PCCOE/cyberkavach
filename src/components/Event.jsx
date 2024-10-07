@@ -295,7 +295,7 @@ function Event({ content, imageSrc, eventId, totalEvents, gFormLink }) {
             <button
               onClick={moveback}
               style={{ fontFamily: 'Gilroy' }}
-              className="pl-8 pr-8 bg-slate-300 text-black rounded-xl text-[18px] md:text-[25px]"
+              className="pl-8 p-3 pr-8 bg-slate-300 text-black rounded-xl text-[18px] md:text-[25px]"
             >
               Move back
             </button>
