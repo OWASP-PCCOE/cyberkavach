@@ -353,7 +353,7 @@ function Event({ content, imageSrc, eventId, totalEvents, gFormLink }) {
             {isVisible ? (
               <img className="h-[30px] w-[30px]" src="/arrow-down.png" alt="arrow down" />
             ) : (
-              <img className="h-[30px] w-[30px]" src="/arrow-up.png" alt="arrow up" />
+              <img className="h-[20px] w-[20px]" src="/arrow-up.png" alt="arrow up" />
             )}
           </button>
         </div>

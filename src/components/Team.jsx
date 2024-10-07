@@ -53,7 +53,7 @@ function Team() {
                     <div className='flex flex-wrap justify-center'>
                     <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/hod-removebg-preview.png" className='h-[194px] w-[151px] md:h-[355px] md:w-[286px] mt-7 translate-x-2' alt="" />
-                            <div className='flex flex-col justify-center items-center mt-4'>
+                            <div className='flex flex-col justify-center items-center mt-5'>
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Dr. Sonali Patil</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>HOD</p>
                                 <div className='flex justify-center items-center mt-2'>
@@ -64,9 +64,9 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px]  md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/shailesh-sir-5.png" className='translate-y-5' alt="" />
-                            <div className='flex flex-col justify-center items-center'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Mr. Shailesh<br/>Galande</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Faculty Advisor</p>
+                            <div className='flex flex-col justify-center items-center flex-wrap'>
+                                <p className='text-white text-[20px]  text-center' style={{ fontFamily: 'NeueMachina' }}>Mr. Shailesh Galande</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Faculty Advisor</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
                                     <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/shailesh-galande-0567183b/?originalSubdomain=in')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -100,9 +100,9 @@ function Team() {
                     <div className='flex flex-wrap justify-center'>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green ml-[5px]'>
                             <img src="/team/Mrunal-removebg-preview (1).png" className='-translate-x-3 -translate-y-2' alt="" />
-                            <div className='flex flex-col justify-center items-center mt-4'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Mrunal Chopade</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Management <br/>Director</p>
+                            <div className='flex flex-col flex-wrap justify-center items-center mt-4'>
+                                <p className='text-white text-[20px]  text-center' style={{ fontFamily: 'NeueMachina' }}>Mrunal Chopade</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Management Director</p>
                                 <div className='flex justify-center items-center mt-2'>
                                     <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/mrunal-chopade-730a77259/?originalSubdomain=in')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -111,9 +111,9 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px]  md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Asmita-removebg-preview (1).png" alt="" />
-                            <div className='flex flex-col justify-center items-center'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Asmita <br/>Mahamuni</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Marketing <br/>Director</p>
+                            <div className='flex flex-col flex-wrap justify-center items-center md:mt-4'>
+                                <p className='text-white text-[20px] text-center' style={{ fontFamily: 'NeueMachina' }}>Asmita Mahamuni</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Marketing Director</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
                                     <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/asmita-mahamuni-076186287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -133,9 +133,9 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2 md:mt-0 mt-[17px]'>
                             <img src="team/Mrudula-removebg-preview (1).png" alt="" />
-                            <div className='flex flex-col items-center justify-center'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Mrudula <br/>Khedkar</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Content Director</p>
+                            <div className='flex flex-col items-center justify-center flex-wrap md:mt-4'>
+                                <p className='text-white text-[20px] text-center' style={{ fontFamily: 'NeueMachina' }}>Mrudula Khedkar</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Content Director</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
                                     <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/mrudula-khedkar-388a35259/?originalSubdomain=in')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -215,9 +215,9 @@ function Team() {
                     <div className='flex flex-wrap justify-center'>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green ml-[5px]'>
                             <img src="/team/Vishwanath-removebg-preview (1).png" className='' alt="" />
-                            <div className='flex flex-col justify-center items-center'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Vishwanath<br/>Uttarwar</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Marketing Head</p>
+                            <div className='flex flex-col justify-center items-center flex-wrap md:mt-4'>
+                                <p className='text-white text-[20px] text-center ' style={{ fontFamily: 'NeueMachina' }}>Vishwanath Uttarwar</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Marketing Head</p>
                                 <div className='flex justify-center items-center mt-1'>
                                     <p><img src="/linkedin.png" onClick={() => moveLink('http://www.linkedin.com/in/vishwanath-uttarwar-97a66b259')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -226,9 +226,9 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Zeeshan.png" alt="" />
-                            <div className='flex flex-col justify-center items-center'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Zeeshan<br/>Siddique</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Marketing Head</p>
+                            <div className='flex flex-col justify-center items-center flex-wrap md:mt-4'>
+                                <p className='text-white text-[20px] text-center' style={{ fontFamily: 'NeueMachina' }}>Zeeshan Siddique</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Marketing Head</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
                                     <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/zeeshan-siddique-a1557a250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" onClick={() => moveLink('https://github.com/Zeeshan19s')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -250,9 +250,9 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Vaishnavi.png" alt="" />
-                            <div className='flex flex-col justify-center items-center'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Vaishnavi<br/>Bighot</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                            <div className='flex flex-col justify-center items-center flex-wrap md:mt-4'>
+                                <p className='text-white text-[20px] items-center ' style={{ fontFamily: 'NeueMachina' }}>Vaishnavi Bighot</p>
+                                <p className='text-white text-[18px]  items-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
                                     <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/vaishnavi-bighot-797597322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" onClick={() => moveLink('https://github.com/VaishnaviBighot')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -292,9 +292,9 @@ function Team() {
                     <div className='flex flex-wrap justify-center mt-7'>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-0 ml-2'>
                             <img src="team/Kanchan.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col justify-center items-center'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Kanchan<br/>Shendage</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                            <div className='flex flex-col justify-center items-center flex-wrap md:mt-4'>
+                                <p className='text-white text-[20px] text-center' style={{ fontFamily: 'NeueMachina' }}>Kanchan Shendage</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2'>
                                     <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -303,9 +303,9 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-[34px] ml-2'>
                             <img src="team/Rudraksh.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col justify-center items-center'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Rudraksh<br/>Charhate</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                            <div className='flex flex-col justify-center items-center flex-wrap md:mt-4'>
+                                <p className='text-white text-[20px] text-center' style={{ fontFamily: 'NeueMachina' }}>Rudraksh Charhate</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
                                     <p><img src="/linkedin.png" onClick={() => moveLink('http://www.linkedin.com/in/rudraksh-charhate-972110289')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" onClick={() => moveLink('https://github.com/iamRUDRAKSH')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -314,9 +314,9 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2 mt-7 md:mt-0'>
                             <img src="team/Gargi.png" className='-translate-x-2' alt="" />
-                            <div className='flex flex-col justify-center items-center'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Gargi<br/>Gogulwar</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                            <div className='flex flex-col justify-center items-center flex-wrap md:mt-4'>
+                                <p className='text-white text-[20px] text-center' style={{ fontFamily: 'NeueMachina' }}>Gargi Gogulwar</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
                                     <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BGXjwA8%2FWTw6WUfjIRsUPtw%3D%3D')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" onClick={() => moveLink('https://github.com/GargiGogulwar')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -333,9 +333,9 @@ function Team() {
                  <div className='flex flex-wrap justify-center'>
                     <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Billy-removebg-preview (1).png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col justify-center items-center'>
-                                <p className='text-white text-[20px]' style={{ fontFamily: 'NeueMachina' }}>Prathmesh<br/>Mulay</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>CTF Head</p>
+                            <div className='flex flex-col justify-center items-center flex-wrap md:mt-4'>
+                                <p className='text-white text-[20px] text-center' style={{ fontFamily: 'NeueMachina' }}>Prathmesh Mulay</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>CTF Head</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
                                     <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/prathmesh-mulay-205142301/?originalSubdomain=in')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" onClick={() => moveLink('https://github.com/tevil344')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -346,7 +346,7 @@ function Team() {
                     <div className='flex flex-wrap justify-center mt-7'>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Omkar.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col justify-center items-center mt-1'>
+                            <div className='flex flex-col justify-center items-center mt-4'>
                                 <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Omkar Kumbhar</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2'>
@@ -357,7 +357,7 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Riya.png" alt="" />
-                            <div className='flex flex-col justify-center items-center'>
+                            <div className='flex flex-col justify-center items-center mt-4'>
                                 <p className='text-white text-[20px]' style={{ fontFamily: 'NeueMachina' }}>Riya Deshmukh</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
@@ -368,9 +368,9 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2 md:mt-0 mt-7'>
                             <img src="team/Siddhika.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col justify-center items-center'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Siddhika<br/>Aglave</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                            <div className='flex flex-col justify-center items-center flex-wrap md:mt-4'>
+                                <p className='text-white text-[20px] text-center ' style={{ fontFamily: 'NeueMachina' }}>Siddhika Aglave</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
                                     <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/siddhika-aglave-2b3596292/')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" onClick={() => moveLink('https://github.com/siddhikaglave')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -429,9 +429,9 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Sumit-removebg-preview (1).png" alt="" />
-                            <div className='flex flex-col justify-center items-center'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Sumit Kumar <br/>Prasad</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Content Head</p>
+                            <div className='flex flex-col justify-center items-center flex-wrap md:mt-3'>
+                                <p className='text-white text-[20px] text-center' style={{ fontFamily: 'NeueMachina' }}>Sumit Kumar Prasad</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Content Head</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
                                     <p><img src="/linkedin.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -442,9 +442,9 @@ function Team() {
                     <div className='flex flex-wrap justify-center mt-7'>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Shivani.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col justify-center items-center'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Shivanee <br/>Surajiwale</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                            <div className='flex flex-col justify-center items-center flex-wrap md:mt-4'>
+                                <p className='text-white text-[20px] text-center' style={{ fontFamily: 'NeueMachina' }}>Shivanee Surajiwale</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
                                     <p><img src="/linkedin.png" onClick={() => moveLink('http://www.linkedin.com/in/shivaneesurajiwale')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" onClick={() => moveLink('https://github.com/shivaneesurajiwale')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
@@ -453,7 +453,7 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2'>
                             <img src="team/Kartik.png" alt="" />
-                            <div className='flex flex-col justify-center items-center mt-3'>
+                            <div className='flex flex-col justify-center items-center mt-4'>
                                 <p className='text-white text-[20px]' style={{ fontFamily: 'NeueMachina' }}>Kartik Thakur</p>
                                 <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2'>
@@ -464,9 +464,9 @@ function Team() {
                         </div>
                         <div className='h-auto w-[170px] md:w-[300px] rounded-[15px] neon-green md:ml-8 ml-2 md:mt-0 mt-7'>
                             <img src="team/Aabha.png" className='translate-x-1' alt="" />
-                            <div className='flex flex-col justify-center items-center'>
-                                <p className='text-white text-[20px] ' style={{ fontFamily: 'NeueMachina' }}>Aabha<br/>Chaudhari</p>
-                                <p className='text-white text-[18px] opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
+                            <div className='flex flex-col justify-center items-center flex-wrap md:mt-4'>
+                                <p className='text-white text-[20px] text-center ' style={{ fontFamily: 'NeueMachina' }}>Aabha Chaudhari</p>
+                                <p className='text-white text-[18px] text-center opacity-50 hover:opacity-90 ' style={{ fontFamily: 'NeueMachina' }}>Member</p>
                                 <div className='flex justify-center items-center mt-2 mb-2'>
                                     <p><img src="/linkedin.png" onClick={() => moveLink('https://www.linkedin.com/in/aabha-chaudhari-21245b278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%]' alt="error" /></p>
                                     <p><img src="/github.png" onClick={() => moveLink('https://github.com/aabhachaudhari')} className='cursor-pointer h-[30px] w-[30px] opacity-[65%] ml-[30px]' alt="error" /></p>
