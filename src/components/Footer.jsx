@@ -30,8 +30,8 @@ function Footer() {
                             <img src="/twitter-1.png" onClick={() => goLink('https://x.com/pccoe_owasp')} className='h-9 w-9 cursor-pointer' alt="" />
                         </div>
                     </div>
-                    <div className='p-7 text-[16px] opacity-40  border-2 neon-green rounded-2xl mt-8'>
-                        <p style={{fontFamily:'Gilroy'}}>OWASP is a student chapter focuses on cybersecurity offering a platform  to explore and learn about various aspects of cybersecurity.</p>
+                    <div className='p-7 hidden md:block text-[16px] opacity-40  border-2 neon-green rounded-2xl mt-8'>
+                        {/* <p style={{fontFamily:'Gilroy'}}>OWASP is a student chapter focuses on cybersecurity offering a platform  to explore and learn about various aspects of cybersecurity.</p> */}
                         <div className='hidden md:block md:mt-4'>
                             <div className='flex '>
                                 <img className='h-[25px] w-[25px]' src="/placeholder.png" alt="" />

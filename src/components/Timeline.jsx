@@ -46,7 +46,7 @@ function Timeline() {
                 {/* Timeline Event 1 */}
                 <div><img src="./cyber-font-9.png" className='md:mt-[-45px]  z-50' alt="" /></div>
                 <div className=' shadow-2xl shadow-blue-500 bg-gradient-to-r from-slate-900 from-10% via-slate-600 via-30% to-slate-900 to-90% h-auto md:w-[500px] w-[350px] rounded-xl text-white border-2 flex flex-col items-center border-white'>
-                    <p className='bg-white text-3xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>08 October</p>
+                    <p className='bg-white md:text-3xl text-xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>08 October</p>
                     <p className='md:text-5xl text-4xl   mt-12 mb-5 text-rose-100 font-bold' style={{ fontFamily: 'Gilroy' }}>INAUGURATION</p>
                 </div>
 
@@ -55,7 +55,7 @@ function Timeline() {
 
                 {/* Timeline Event 2 */}
                 <div className=' shadow-2xl shadow-blue-500 bg-gradient-to-r from-slate-900 from-10% via-slate-600 via-30% to-slate-900 to-90% h-auto md:w-[500px] w-[350px] rounded-xl text-white border-2 flex flex-col items-center border-white'>
-                    <p className='bg-white text-3xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>09 October</p>
+                    <p className='bg-white md:text-3xl text-xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>09 October</p>
                     <p className='md:text-5xl text-4xl opacity-75 mt-12 mb-5 text-rose-100 font-bold' style={{ fontFamily: 'Gilroy' }}>CYBERSAFE <br /> CHECKPOINT</p>
                 </div>
 
@@ -64,7 +64,7 @@ function Timeline() {
 
                 {/* Timeline Event 3 */}
                 <div className=' shadow-2xl shadow-blue-500 bg-gradient-to-r from-slate-900 from-10% via-slate-600 via-30% to-slate-900 to-90% h-auto md:w-[500px] w-[350px] rounded-xl text-white border-2 flex flex-col items-center border-white'>
-                    <p className='bg-white text-3xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>14 October</p>
+                    <p className='bg-white md:text-3xl text-xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>14 October</p>
                     <p className='md:text-5xl text-4xl text-center opacity-75 mt-12 mb-5 text-rose-100 font-bold' style={{ fontFamily: 'Gilroy' }}>FACULTY SESSION</p>
                 </div>
 
@@ -73,48 +73,48 @@ function Timeline() {
 
                 {/* Timeline Event 4 */}
                 <div className=' shadow-2xl shadow-blue-500 bg-gradient-to-r from-slate-900 from-10% via-slate-600 via-30% to-slate-900 to-90% h-auto md:w-[500px] w-[350px] rounded-xl text-white border-2 flex flex-col items-center border-white'>
-                    <p className='bg-white text-3xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>16 October</p>
+                    <p className='bg-white md:text-3xl text-xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>16 October</p>
                     <p className='md:text-5xl text-4xl text-center opacity-75 mt-12 mb-5 text-rose-100  font-bold' style={{ fontFamily: 'Gilroy' }}>MOCK GRE</p>
                 </div>
                 <div className='w-[4px]  bg-green-300 h-[110px] ml-auto mr-auto neon-lime'></div>
 
                 {/* Timeline Event 4 */}
                 <div className=' shadow-2xl shadow-blue-500 bg-gradient-to-r from-slate-900 from-10% via-slate-600 via-30% to-slate-900 to-90% h-auto md:w-[500px] w-[350px] rounded-xl text-white border-2 flex flex-col items-center border-white'>
-                    <p className='bg-white text-3xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>18 October</p>
+                    <p className='bg-white md:text-3xl text-xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>18 October</p>
                     <p className='md:text-5xl text-4xl text-center opacity-75 mt-12 mb-5 text-rose-100 font-bold' style={{ fontFamily: 'Gilroy' }}>ADRISHYAM</p>
                 </div>
 
                 <div className='w-[4px]  bg-green-300 h-[110px] ml-auto mr-auto neon-lime'></div>
                 {/* Timeline Event 4 */}
                 <div className=' shadow-2xl shadow-blue-500 bg-gradient-to-r from-slate-900 from-10% via-slate-600 via-30% to-slate-900 to-90% h-auto md:w-[500px] w-[350px] rounded-xl text-white border-2 flex flex-col items-center border-white'>
-                    <p className='bg-white text-3xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>21 October</p>
+                    <p className='bg-white md:text-3xl text-xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>21 October</p>
                     <p className='md:text-5xl text-4xl text-center opacity-75 mt-12 mb-5 text-rose-100 font-bold' style={{ fontFamily: 'Gilroy' }}>MRIGAYA</p>
                 </div>
 
                 <div className='w-[4px]  bg-green-300 h-[110px] ml-auto mr-auto neon-lime'></div>
                 {/* Timeline Event 4 */}
                 <div className=' shadow-2xl shadow-blue-500 bg-gradient-to-r from-slate-900 from-10% via-slate-600 via-30% to-slate-900 to-90% h-auto md:w-[500px] w-[350px] rounded-xl text-white border-2 flex flex-col items-center border-white'>
-                    <p className='bg-white text-3xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>22 October</p>
+                    <p className='bg-white md:text-3xl text-xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>22 October</p>
                     <p className='md:text-5xl text-4xl text-center opacity-75 mt-12 mb-5 text-rose-100 font-bold' style={{ fontFamily: 'Gilroy' }}>QUEST-CON</p>
                 </div>
 
                 <div className='w-[4px]  bg-green-300 h-[110px] ml-auto mr-auto neon-lime'></div>
                 {/* Timeline Event 4 */}
                 <div className=' shadow-2xl shadow-blue-500 bg-gradient-to-r from-slate-900 from-10% via-slate-600 via-30% to-slate-900 to-90% h-auto md:w-[500px] w-[350px] rounded-xl text-white border-2 flex flex-col items-center border-white'>
-                    <p className='bg-white text-3xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>23 October</p>
+                    <p className='bg-white md:text-3xl text-xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>23 October</p>
                     <p className='md:text-5xl text-4xl text-center opacity-75 mt-12 mb-5 text-rose-100 font-bold' style={{ fontFamily: 'Gilroy' }}>DEV DEFENCE</p>
                 </div>
 
                 <div className='w-[4px]  bg-green-300 h-[110px] ml-auto mr-auto neon-lime'></div>
                 {/* Timeline Event 4 */}
                 <div className=' shadow-2xl shadow-blue-500 bg-gradient-to-r from-slate-900 from-10% via-slate-600 via-30% to-slate-900 to-90% h-auto md:w-[500px] w-[350px] rounded-xl text-white border-2 flex flex-col items-center border-white'>
-                    <p className='bg-white text-3xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>24 October</p>
+                    <p className='bg-white md:text-3xl text-xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>24 October</p>
                     <p className='md:text-5xl text-4xl text-center opacity-75 mt-12 mb-5 text-rose-100 font-bold' style={{ fontFamily: 'Gilroy' }}>OFF CAMPUS</p>
                 </div>
 
                 <div className='w-[4px]  bg-green-300 h-[110px] ml-auto mr-auto neon-lime'></div>
                 <div className=' shadow-2xl shadow-blue-500 bg-gradient-to-r from-slate-900 from-10% via-slate-600 via-30% to-slate-900 to-90% h-auto md:w-[500px] w-[350px] rounded-xl text-white border-2 flex flex-col items-center border-white'>
-                    <p className='bg-white text-3xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>25 October</p>
+                    <p className='bg-white md:text-3xl text-xl text-black border-2 mt-4 p-4 rounded-2xl neon-gray' style={{ fontFamily: 'NeueMachina' }}>25 October</p>
                     <p className='md:text-5xl text-4xl text-center opacity-75 mt-12 mb-5 text-rose-100 font-bold' style={{ fontFamily: 'Gilroy' }}>VALEDICTORY</p>
                 </div>
             </div>
