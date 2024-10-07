@@ -97,7 +97,7 @@ function Event({ content, imageSrc, eventId, totalEvents, gFormLink }) {
       </style>
 
       {/* Main Content Container with opacity */}
-      <div className="flex-grow flex flex-col items-center md:justify-evenly justify-start text-white h-auto relative -translate-y-[40px] md:-translate-y-[5px]">
+      <div className="flex-grow flex flex-col items-center md:justify-evenly text-white h-auto relative -translate-y-[40px] md:-translate-y-[5px]">
         {/* Image container with reduced size and negative Y translation */}
         <div className="mt-4 md:-translate-y-[60px] -translate-y-[20px] rounded-xl neon-orange">
           <img
@@ -109,7 +109,7 @@ function Event({ content, imageSrc, eventId, totalEvents, gFormLink }) {
         </div>
 
         {/* Navigation Buttons centered */}
-        <div className="flex flex-row justify-center w-full space-x-4" style={{ opacity: contentOpacity }}>
+        <div className="flex flex-row justify-center md:mt-0 mt-5 w-full space-x-4" style={{ opacity: contentOpacity }}>
           {/* Conditionally render Move Back button only if eventId > 1 */}
           {eventId > 1 && (
             <button
@@ -126,7 +126,7 @@ function Event({ content, imageSrc, eventId, totalEvents, gFormLink }) {
             <button
               onClick={movenext}
               style={{ fontFamily: 'Gilroy' }}
-              className="p-3 pl-8 pr-8 bg-slate-100 text-black rounded-xl text-[18px] md:text-[30px]"
+              className="p-3 pl-8 pr-8 bg-slate-100  text-black rounded-xl text-[18px] md:text-[30px]"
             >
               Amazing, Next
             </button>
@@ -139,7 +139,7 @@ function Event({ content, imageSrc, eventId, totalEvents, gFormLink }) {
             <button
               onClick={() => gForm(gFormLink)}
               style={{ fontFamily: 'Gilroy' }}
-              className="p-3 rounded-xl pl-20 pr-20 border-2 neon-slate border-white text-white font-semibold md:text-[25px]"
+              className="p-3 rounded-xl pl-20 pr-20 border-2 md:mt-0 mt-5  neon-slate border-white text-white font-semibold md:text-[25px]"
             >
               Register
             </button>
